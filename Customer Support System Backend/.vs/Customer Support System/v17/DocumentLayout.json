@@ -1,0 +1,905 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7D040EE1-76C3-4494-9B56-7265C24AEECA}|CustomerSupport.Presentation\\CustomerSupport.Presentation.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D040EE1-76C3-4494-9B56-7265C24AEECA}|CustomerSupport.Presentation\\CustomerSupport.Presentation.csproj|solutionrelative:customersupport.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.domain\\customersupport.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|solutionrelative:customersupport.domain\\customersupport.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.infrastructure\\data\\identityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|solutionrelative:customersupport.infrastructure\\data\\identityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|solutionrelative:customersupport.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.infrastructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|solutionrelative:customersupport.infrastructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.domain\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|solutionrelative:customersupport.domain\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.domain\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|solutionrelative:customersupport.domain\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D040EE1-76C3-4494-9B56-7265C24AEECA}|CustomerSupport.Presentation\\CustomerSupport.Presentation.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.presentation\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D040EE1-76C3-4494-9B56-7265C24AEECA}|CustomerSupport.Presentation\\CustomerSupport.Presentation.csproj|solutionrelative:customersupport.presentation\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D040EE1-76C3-4494-9B56-7265C24AEECA}|CustomerSupport.Presentation\\CustomerSupport.Presentation.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.presentation\\controllers\\notecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D040EE1-76C3-4494-9B56-7265C24AEECA}|CustomerSupport.Presentation\\CustomerSupport.Presentation.csproj|solutionrelative:customersupport.presentation\\controllers\\notecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D040EE1-76C3-4494-9B56-7265C24AEECA}|CustomerSupport.Presentation\\CustomerSupport.Presentation.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.presentation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D040EE1-76C3-4494-9B56-7265C24AEECA}|CustomerSupport.Presentation\\CustomerSupport.Presentation.csproj|solutionrelative:customersupport.presentation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.application\\customersupport.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|solutionrelative:customersupport.application\\customersupport.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.domain\\interfaces\\iticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|solutionrelative:customersupport.domain\\interfaces\\iticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.domain\\interfaces\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|solutionrelative:customersupport.domain\\interfaces\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.domain\\interfaces\\iattachmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|solutionrelative:customersupport.domain\\interfaces\\iattachmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.domain\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|solutionrelative:customersupport.domain\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.domain\\enums\\ticketstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|solutionrelative:customersupport.domain\\enums\\ticketstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.domain\\enums\\ticketpriority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|solutionrelative:customersupport.domain\\enums\\ticketpriority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|solutionrelative:customersupport.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.domain\\entities\\approle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|solutionrelative:customersupport.domain\\entities\\approle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.application\\services\\implementations\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|solutionrelative:customersupport.application\\services\\implementations\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.application\\services\\implementations\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|solutionrelative:customersupport.application\\services\\implementations\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.application\\services\\implementations\\noteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|solutionrelative:customersupport.application\\services\\implementations\\noteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.application\\services\\interfaces\\iticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|solutionrelative:customersupport.application\\services\\interfaces\\iticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.application\\services\\interfaces\\irateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|solutionrelative:customersupport.application\\services\\interfaces\\irateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.application\\services\\interfaces\\inoteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|solutionrelative:customersupport.application\\services\\interfaces\\inoteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.application\\mapping\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|solutionrelative:customersupport.application\\mapping\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.application\\services\\implementations\\attachmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|solutionrelative:customersupport.application\\services\\implementations\\attachmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.application\\services\\implementations\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|solutionrelative:customersupport.application\\services\\implementations\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.application\\services\\implementations\\rateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|solutionrelative:customersupport.application\\services\\implementations\\rateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.application\\services\\implementations\\userassignedticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|solutionrelative:customersupport.application\\services\\implementations\\userassignedticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.application\\services\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|solutionrelative:customersupport.application\\services\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.application\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|solutionrelative:customersupport.application\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.application\\services\\interfaces\\iuserassignedticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|solutionrelative:customersupport.application\\services\\interfaces\\iuserassignedticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.application\\services\\interfaces\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|solutionrelative:customersupport.application\\services\\interfaces\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.application\\services\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|solutionrelative:customersupport.application\\services\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.application\\services\\interfaces\\iattachmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|solutionrelative:customersupport.application\\services\\interfaces\\iattachmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.infrastructure\\repositories\\userassignedticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|solutionrelative:customersupport.infrastructure\\repositories\\userassignedticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.infrastructure\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|solutionrelative:customersupport.infrastructure\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.infrastructure\\repositories\\ratingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|solutionrelative:customersupport.infrastructure\\repositories\\ratingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.infrastructure\\repositories\\attachmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|solutionrelative:customersupport.infrastructure\\repositories\\attachmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.infrastructure\\repositories\\noterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|solutionrelative:customersupport.infrastructure\\repositories\\noterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.infrastructure\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|solutionrelative:customersupport.infrastructure\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.infrastructure\\repositories\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|solutionrelative:customersupport.infrastructure\\repositories\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|solutionrelative:customersupport.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|solutionrelative:customersupport.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.domain\\interfaces\\iuserassignedticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|solutionrelative:customersupport.domain\\interfaces\\iuserassignedticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.domain\\interfaces\\iratingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|solutionrelative:customersupport.domain\\interfaces\\iratingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.domain\\interfaces\\inoterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|solutionrelative:customersupport.domain\\interfaces\\inoterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.domain\\entities\\userassignedticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|solutionrelative:customersupport.domain\\entities\\userassignedticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.domain\\entities\\attachment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|solutionrelative:customersupport.domain\\entities\\attachment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.domain\\entities\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|solutionrelative:customersupport.domain\\entities\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.domain\\entities\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|solutionrelative:customersupport.domain\\entities\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.domain\\entities\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|solutionrelative:customersupport.domain\\entities\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.infrastructure\\customersupport.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|solutionrelative:customersupport.infrastructure\\customersupport.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D040EE1-76C3-4494-9B56-7265C24AEECA}|CustomerSupport.Presentation\\CustomerSupport.Presentation.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system\\customersupport.presentation\\customersupport.presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7D040EE1-76C3-4494-9B56-7265C24AEECA}|CustomerSupport.Presentation\\CustomerSupport.Presentation.csproj|solutionrelative:customersupport.presentation\\customersupport.presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Presentation\\Program.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Presentation\\Program.cs",
+              "RelativeToolTip": "CustomerSupport.Presentation\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T19:59:12.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Infrastructure\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "CustomerSupport.Infrastructure\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:19:43.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Domain\\Interfaces\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Domain\\Interfaces\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Domain\\Interfaces\\IGenericRepository.cs",
+              "RelativeToolTip": "CustomerSupport.Domain\\Interfaces\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:05:44.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Infrastructure\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Infrastructure\\Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Infrastructure\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "CustomerSupport.Infrastructure\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:21:08.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IdentityConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Infrastructure\\Data\\IdentityConfiguration.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Infrastructure\\Data\\IdentityConfiguration.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Infrastructure\\Data\\IdentityConfiguration.cs",
+              "RelativeToolTip": "CustomerSupport.Infrastructure\\Data\\IdentityConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:20:27.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerSupport.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Domain\\CustomerSupport.Domain.csproj",
+              "RelativeDocumentMoniker": "CustomerSupport.Domain\\CustomerSupport.Domain.csproj",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Domain\\CustomerSupport.Domain.csproj",
+              "RelativeToolTip": "CustomerSupport.Domain\\CustomerSupport.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-20T20:36:32.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Domain\\Entities\\AppUser.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Domain\\Entities\\AppUser.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Domain\\Entities\\AppUser.cs",
+              "RelativeToolTip": "CustomerSupport.Domain\\Entities\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:17:22.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TicketController.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Presentation\\Controllers\\TicketController.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Presentation\\Controllers\\TicketController.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Presentation\\Controllers\\TicketController.cs",
+              "RelativeToolTip": "CustomerSupport.Presentation\\Controllers\\TicketController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:53:23.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ITicketRepository.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Domain\\Interfaces\\ITicketRepository.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Domain\\Interfaces\\ITicketRepository.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Domain\\Interfaces\\ITicketRepository.cs",
+              "RelativeToolTip": "CustomerSupport.Domain\\Interfaces\\ITicketRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:06:36.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Presentation\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Presentation\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Presentation\\Controllers\\UserController.cs",
+              "RelativeToolTip": "CustomerSupport.Presentation\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:52:27.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NoteController.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Presentation\\Controllers\\NoteController.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Presentation\\Controllers\\NoteController.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Presentation\\Controllers\\NoteController.cs",
+              "RelativeToolTip": "CustomerSupport.Presentation\\Controllers\\NoteController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:52:56.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CustomerSupport.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Application\\CustomerSupport.Application.csproj",
+              "RelativeDocumentMoniker": "CustomerSupport.Application\\CustomerSupport.Application.csproj",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Application\\CustomerSupport.Application.csproj",
+              "RelativeToolTip": "CustomerSupport.Application\\CustomerSupport.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-20T20:36:33.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IRoleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Domain\\Interfaces\\IRoleRepository.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Domain\\Interfaces\\IRoleRepository.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Domain\\Interfaces\\IRoleRepository.cs",
+              "RelativeToolTip": "CustomerSupport.Domain\\Interfaces\\IRoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:07:38.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IAttachmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Domain\\Interfaces\\IAttachmentRepository.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Domain\\Interfaces\\IAttachmentRepository.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Domain\\Interfaces\\IAttachmentRepository.cs",
+              "RelativeToolTip": "CustomerSupport.Domain\\Interfaces\\IAttachmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:07:52.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Domain\\Interfaces\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Domain\\Interfaces\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Domain\\Interfaces\\ICategoryRepository.cs",
+              "RelativeToolTip": "CustomerSupport.Domain\\Interfaces\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:07:25.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TicketStatus.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Domain\\Enums\\TicketStatus.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Domain\\Enums\\TicketStatus.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Domain\\Enums\\TicketStatus.cs",
+              "RelativeToolTip": "CustomerSupport.Domain\\Enums\\TicketStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:18:47.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TicketPriority.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Domain\\Enums\\TicketPriority.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Domain\\Enums\\TicketPriority.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Domain\\Enums\\TicketPriority.cs",
+              "RelativeToolTip": "CustomerSupport.Domain\\Enums\\TicketPriority.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:19:06.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Domain\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Domain\\Entities\\Category.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Domain\\Entities\\Category.cs",
+              "RelativeToolTip": "CustomerSupport.Domain\\Entities\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:03:34.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AppRole.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Domain\\Entities\\AppRole.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Domain\\Entities\\AppRole.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Domain\\Entities\\AppRole.cs",
+              "RelativeToolTip": "CustomerSupport.Domain\\Entities\\AppRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:17:37.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RoleService.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Application\\Services\\Implementations\\RoleService.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Application\\Services\\Implementations\\RoleService.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Application\\Services\\Implementations\\RoleService.cs",
+              "RelativeToolTip": "CustomerSupport.Application\\Services\\Implementations\\RoleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:30:07.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Application\\Services\\Implementations\\CategoryService.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Application\\Services\\Implementations\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Application\\Services\\Implementations\\CategoryService.cs",
+              "RelativeToolTip": "CustomerSupport.Application\\Services\\Implementations\\CategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:30:21.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "NoteService.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Application\\Services\\Implementations\\NoteService.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Application\\Services\\Implementations\\NoteService.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Application\\Services\\Implementations\\NoteService.cs",
+              "RelativeToolTip": "CustomerSupport.Application\\Services\\Implementations\\NoteService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:30:25.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ITicketService.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Application\\Services\\Interfaces\\ITicketService.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Application\\Services\\Interfaces\\ITicketService.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Application\\Services\\Interfaces\\ITicketService.cs",
+              "RelativeToolTip": "CustomerSupport.Application\\Services\\Interfaces\\ITicketService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:25:16.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IRateService.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Application\\Services\\Interfaces\\IRateService.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Application\\Services\\Interfaces\\IRateService.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Application\\Services\\Interfaces\\IRateService.cs",
+              "RelativeToolTip": "CustomerSupport.Application\\Services\\Interfaces\\IRateService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:26:42.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "INoteService.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Application\\Services\\Interfaces\\INoteService.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Application\\Services\\Interfaces\\INoteService.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Application\\Services\\Interfaces\\INoteService.cs",
+              "RelativeToolTip": "CustomerSupport.Application\\Services\\Interfaces\\INoteService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:25:59.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AutoMapperProfile.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Application\\Mapping\\AutoMapperProfile.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Application\\Mapping\\AutoMapperProfile.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Application\\Mapping\\AutoMapperProfile.cs",
+              "RelativeToolTip": "CustomerSupport.Application\\Mapping\\AutoMapperProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:33:19.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AttachmentService.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Application\\Services\\Implementations\\AttachmentService.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Application\\Services\\Implementations\\AttachmentService.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Application\\Services\\Implementations\\AttachmentService.cs",
+              "RelativeToolTip": "CustomerSupport.Application\\Services\\Implementations\\AttachmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:30:15.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "RateService.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Application\\Services\\Implementations\\RateService.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Application\\Services\\Implementations\\RateService.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Application\\Services\\Implementations\\RateService.cs",
+              "RelativeToolTip": "CustomerSupport.Application\\Services\\Implementations\\RateService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:30:32.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UserAssignedTicketService.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Application\\Services\\Implementations\\UserAssignedTicketService.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Application\\Services\\Implementations\\UserAssignedTicketService.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Application\\Services\\Implementations\\UserAssignedTicketService.cs",
+              "RelativeToolTip": "CustomerSupport.Application\\Services\\Implementations\\UserAssignedTicketService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:30:40.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "TicketService.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Application\\Services\\Implementations\\TicketService.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Application\\Services\\Implementations\\TicketService.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Application\\Services\\Implementations\\TicketService.cs",
+              "RelativeToolTip": "CustomerSupport.Application\\Services\\Implementations\\TicketService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:30:37.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Application\\Services\\Implementations\\UserService.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Application\\Services\\Implementations\\UserService.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Application\\Services\\Implementations\\UserService.cs",
+              "RelativeToolTip": "CustomerSupport.Application\\Services\\Implementations\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:30:43.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Application\\Services\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Application\\Services\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Application\\Services\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "CustomerSupport.Application\\Services\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:25:46.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IUserAssignedTicketService.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Application\\Services\\Interfaces\\IUserAssignedTicketService.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Application\\Services\\Interfaces\\IUserAssignedTicketService.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Application\\Services\\Interfaces\\IUserAssignedTicketService.cs",
+              "RelativeToolTip": "CustomerSupport.Application\\Services\\Interfaces\\IUserAssignedTicketService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:27:14.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IRoleService.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Application\\Services\\Interfaces\\IRoleService.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Application\\Services\\Interfaces\\IRoleService.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Application\\Services\\Interfaces\\IRoleService.cs",
+              "RelativeToolTip": "CustomerSupport.Application\\Services\\Interfaces\\IRoleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:26:27.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Application\\Services\\Interfaces\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Application\\Services\\Interfaces\\ICategoryService.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Application\\Services\\Interfaces\\ICategoryService.cs",
+              "RelativeToolTip": "CustomerSupport.Application\\Services\\Interfaces\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:26:56.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IAttachmentService.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Application\\Services\\Interfaces\\IAttachmentService.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Application\\Services\\Interfaces\\IAttachmentService.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Application\\Services\\Interfaces\\IAttachmentService.cs",
+              "RelativeToolTip": "CustomerSupport.Application\\Services\\Interfaces\\IAttachmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:26:14.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "UserAssignedTicketRepository.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Infrastructure\\Repositories\\UserAssignedTicketRepository.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Infrastructure\\Repositories\\UserAssignedTicketRepository.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Infrastructure\\Repositories\\UserAssignedTicketRepository.cs",
+              "RelativeToolTip": "CustomerSupport.Infrastructure\\Repositories\\UserAssignedTicketRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:23:46.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Infrastructure\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Infrastructure\\Repositories\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Infrastructure\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "CustomerSupport.Infrastructure\\Repositories\\CategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:23:22.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "RatingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Infrastructure\\Repositories\\RatingRepository.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Infrastructure\\Repositories\\RatingRepository.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Infrastructure\\Repositories\\RatingRepository.cs",
+              "RelativeToolTip": "CustomerSupport.Infrastructure\\Repositories\\RatingRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:22:56.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AttachmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Infrastructure\\Repositories\\AttachmentRepository.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Infrastructure\\Repositories\\AttachmentRepository.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Infrastructure\\Repositories\\AttachmentRepository.cs",
+              "RelativeToolTip": "CustomerSupport.Infrastructure\\Repositories\\AttachmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:22:38.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "NoteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Infrastructure\\Repositories\\NoteRepository.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Infrastructure\\Repositories\\NoteRepository.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Infrastructure\\Repositories\\NoteRepository.cs",
+              "RelativeToolTip": "CustomerSupport.Infrastructure\\Repositories\\NoteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:22:24.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "RoleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Infrastructure\\Repositories\\RoleRepository.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Infrastructure\\Repositories\\RoleRepository.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Infrastructure\\Repositories\\RoleRepository.cs",
+              "RelativeToolTip": "CustomerSupport.Infrastructure\\Repositories\\RoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:22:01.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "TicketRepository.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Infrastructure\\Repositories\\TicketRepository.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Infrastructure\\Repositories\\TicketRepository.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Infrastructure\\Repositories\\TicketRepository.cs",
+              "RelativeToolTip": "CustomerSupport.Infrastructure\\Repositories\\TicketRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:21:39.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "CustomerSupport.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:21:24.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Domain\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "CustomerSupport.Domain\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:06:23.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "IRatingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Domain\\Interfaces\\IRatingRepository.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Domain\\Interfaces\\IRatingRepository.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Domain\\Interfaces\\IRatingRepository.cs",
+              "RelativeToolTip": "CustomerSupport.Domain\\Interfaces\\IRatingRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:07:04.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "IUserAssignedTicketRepository.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Domain\\Interfaces\\IUserAssignedTicketRepository.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Domain\\Interfaces\\IUserAssignedTicketRepository.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Domain\\Interfaces\\IUserAssignedTicketRepository.cs",
+              "RelativeToolTip": "CustomerSupport.Domain\\Interfaces\\IUserAssignedTicketRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:08:13.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "INoteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Domain\\Interfaces\\INoteRepository.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Domain\\Interfaces\\INoteRepository.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Domain\\Interfaces\\INoteRepository.cs",
+              "RelativeToolTip": "CustomerSupport.Domain\\Interfaces\\INoteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:06:50.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "UserAssignedTicket.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Domain\\Entities\\UserAssignedTicket.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Domain\\Entities\\UserAssignedTicket.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Domain\\Entities\\UserAssignedTicket.cs",
+              "RelativeToolTip": "CustomerSupport.Domain\\Entities\\UserAssignedTicket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:04:12.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Attachment.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Domain\\Entities\\Attachment.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Domain\\Entities\\Attachment.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Domain\\Entities\\Attachment.cs",
+              "RelativeToolTip": "CustomerSupport.Domain\\Entities\\Attachment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:03:51.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Rating.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Domain\\Entities\\Rating.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Domain\\Entities\\Rating.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Domain\\Entities\\Rating.cs",
+              "RelativeToolTip": "CustomerSupport.Domain\\Entities\\Rating.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:03:20.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Note.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Domain\\Entities\\Note.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Domain\\Entities\\Note.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Domain\\Entities\\Note.cs",
+              "RelativeToolTip": "CustomerSupport.Domain\\Entities\\Note.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:03:08.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Domain\\Entities\\Ticket.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Domain\\Entities\\Ticket.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Domain\\Entities\\Ticket.cs",
+              "RelativeToolTip": "CustomerSupport.Domain\\Entities\\Ticket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:02:56.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "CustomerSupport.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj",
+              "RelativeToolTip": "CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-20T20:36:37.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "CustomerSupport.Presentation.csproj",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Presentation\\CustomerSupport.Presentation.csproj",
+              "RelativeDocumentMoniker": "CustomerSupport.Presentation\\CustomerSupport.Presentation.csproj",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Presentation\\CustomerSupport.Presentation.csproj",
+              "RelativeToolTip": "CustomerSupport.Presentation\\CustomerSupport.Presentation.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-20T20:36:29.531Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

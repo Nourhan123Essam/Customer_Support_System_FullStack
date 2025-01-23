@@ -1,0 +1,102 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "CustomerSupport.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CustomerSupport.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CustomerSupport.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CustomerSupport.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CustomerSupport.Domain/CustomerSupport.Domain.csproj",
+      "msbuildProject": "../CustomerSupport.Domain/CustomerSupport.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "CustomerSupport.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\CS\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj",
+      "projectName": "CustomerSupport.Infrastructure",
+      "projectPath": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\CS\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Infrastructure\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\CS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Domain\\CustomerSupport.Domain.csproj": {
+              "projectPath": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System\\CustomerSupport.Domain\\CustomerSupport.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
