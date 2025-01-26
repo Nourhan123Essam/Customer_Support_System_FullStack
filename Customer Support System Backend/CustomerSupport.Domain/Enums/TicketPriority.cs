@@ -8,5 +8,8 @@ namespace CustomerSupport.Domain.Enums
 {
     public enum TicketPriority
     {
+        Low,
+        Medium, 
+        High
     }
 }

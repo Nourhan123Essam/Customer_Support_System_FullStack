@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CustomerSupport.Infrastructure\CustomerSupport.Infrastructure.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Folder Include="DTOs\Category\" />
     <Folder Include="DTOs\Attachment\" />
     <Folder Include="DTOs\Ticket\" />
@@ -18,7 +14,10 @@
     <Folder Include="DTOs\Rating\" />
     <Folder Include="DTOs\Note\" />
     <Folder Include="DTOs\Role\" />
-    <Folder Include="DTOs\User\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CustomerSupport.Domain\CustomerSupport.Domain.csproj" />
   </ItemGroup>
 
 </Project>

@@ -8,5 +8,16 @@ namespace CustomerSupport.Domain.Entities
 {
     public class Note
     {
+        public int NoteId { get; set; }
+        public string Content { get; set; }
+        public bool IsVisibleToCustomer { get; set; }
+        public DateTime CreatedAt { get; set; }
+
+        // Foreign keys
+        public int TicketId { get; set; }
+        public string UserId { get; set; }
+
+        // Navigation Property
+        public Ticket Ticket { get; set; }
     }
 }

@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CustomerSupport.Application/1.0.0": {
+        "dependencies": {
+          "CustomerSupport.Domain": "1.0.0"
+        },
+        "runtime": {
+          "CustomerSupport.Application.dll": {}
+        }
+      },
+      "CustomerSupport.Domain/1.0.0": {
+        "runtime": {
+          "CustomerSupport.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CustomerSupport.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CustomerSupport.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
