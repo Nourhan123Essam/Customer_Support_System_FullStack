@@ -11,7 +11,7 @@ namespace CustomerSupport.Domain.Entities
         public int NoteId { get; set; }
         public string Content { get; set; }
         public bool IsVisibleToCustomer { get; set; }
-        public DateTime CreatedAt { get; set; }
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
 
         // Foreign keys
         public int TicketId { get; set; }

@@ -9,11 +9,14 @@
   <ItemGroup>
     <Folder Include="DTOs\Category\" />
     <Folder Include="DTOs\Attachment\" />
-    <Folder Include="DTOs\Ticket\" />
     <Folder Include="DTOs\UserAssignedTicket\" />
     <Folder Include="DTOs\Rating\" />
-    <Folder Include="DTOs\Note\" />
     <Folder Include="DTOs\Role\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.17" />
   </ItemGroup>
 
   <ItemGroup>

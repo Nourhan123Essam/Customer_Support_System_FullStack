@@ -1,12 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using AutoMapper;
+using CustomerSupport.Application.DTOs.Ticket;
+using CustomerSupport.Domain.Entities;
 
 namespace CustomerSupport.Application.Mapping
 {
-    public class AutoMapperProfile
+    public class AutoMapperProfile: Profile
     {
+        public AutoMapperProfile()
+        {
+            //CreateMap<Ticket, TicketDTO>().ReverseMap();
+            CreateMap<CreateTicketDTO, Ticket>().ReverseMap();
+        }
     }
 }

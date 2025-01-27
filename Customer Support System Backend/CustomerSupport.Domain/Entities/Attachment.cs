@@ -11,7 +11,7 @@ namespace CustomerSupport.Domain.Entities
         public int AttachmentId { get; set; }
         public string FileName { get; set; }
         public string FilePath { get; set; }
-        public DateTime UploadedAt { get; set; }
+        public DateTime UploadedAt { get; set; } = DateTime.Now;
 
         // Foreign keys
         public int TicketId { get; set; }
