@@ -1,5 +1,6 @@
 ﻿using CustomerSupport.Application.DTOs.Ticket;
 using CustomerSupport.Application.Services.Interfaces;
+using CustomerSupport.Domain.Entities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -29,9 +30,12 @@ namespace CustomerSupport.Presentation.Controllers
         [HttpGet("{ticketId}/notes")]
         public async Task<IActionResult> GetTicketNotes(int ticketId)
         {
+            // Get User Id
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
             try
             {
-                var notes = await _ticketService.GetTicketNotesAsync(ticketId);
+                var notes = await _ticketService.GetTicketNotesAsync(ticketId, userId);
                 return Ok(notes);
             }
             catch (KeyNotFoundException ex)

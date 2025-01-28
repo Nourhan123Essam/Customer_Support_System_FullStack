@@ -1,5 +1,6 @@
 ﻿using CustomerSupport.Application.DTOs.Note;
 using CustomerSupport.Domain.Entities;
+using CustomerSupport.Domain.Enums;
 using CustomerSupport.Domain.Interfaces;
 using CustomerSupport.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
@@ -25,7 +26,7 @@ namespace CustomerSupport.Infrastructure.Repositories
         {
             return await _dbContext.Tickets
                 .Include(t => t.Attachments)
-                .Include(t => t.Notes)
+                //.Include(t => t.Notes)
                 .FirstOrDefaultAsync(t => t.Id == id);
         }
 
@@ -38,10 +39,39 @@ namespace CustomerSupport.Infrastructure.Repositories
             return notes;
         }
 
-
-        public Task<IEnumerable<Ticket>> GetTicketsByUserIdAsync(int userId)
+        public async Task AddNoteAsync(Note note)
         {
-            throw new NotImplementedException();
+            await _dbContext.Notes.AddAsync(note);
+            await _dbContext.SaveChangesAsync();
+        }
+        public async Task<bool> IsTicketClosedAsync(int ticketId)
+        {
+            var ticket = await _dbContext.Tickets
+                .Where(t => t.Id == ticketId)
+                .Select(t => t.Status)
+                .FirstOrDefaultAsync();
+
+            return ticket == TicketStatus.Closed;
+        }
+
+        public async Task<Ticket> GetTicketWithRatingAsync(int ticketId)
+        {
+            return await _dbContext.Tickets
+                .Include(t => t.Rating)
+                .FirstOrDefaultAsync(t => t.Id == ticketId);
+        }
+
+        public async Task Update(Ticket ticket)
+        {
+            _dbContext.Tickets.Update(ticket);
+            await _dbContext.SaveChangesAsync();
+        }
+
+        public async Task<IEnumerable<Ticket>> GetTicketsByUserIdAsync(string userId)
+        {
+            return await _dbContext.Tickets
+                .Where(t => t.CustomerUserId == userId)
+                .ToListAsync();
         }
     }
 }

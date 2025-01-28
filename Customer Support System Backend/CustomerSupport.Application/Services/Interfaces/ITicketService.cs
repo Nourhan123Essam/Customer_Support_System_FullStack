@@ -1,4 +1,5 @@
 ﻿using CustomerSupport.Application.DTOs.Note;
+using CustomerSupport.Application.DTOs.Rating;
 using CustomerSupport.Application.DTOs.Ticket;
 using System;
 using System.Collections.Generic;
@@ -10,7 +11,10 @@ namespace CustomerSupport.Application.Services.Interfaces
 {
     public interface ITicketService
     {
-        Task<List<NoteDTO>> GetTicketNotesAsync(int ticketId);
-        public Task<int> CreateTicket(CreateTicketDTO ticketDTO, string userId);
+        Task AddNoteAsync(AddNoteDTO addNoteDTO, string userId);
+        Task<bool> AddRatingAsync(AddRatingDTO ratingDTO, string userId);
+        Task<IEnumerable<GetTicketDTO>> GetUserTicketsAsync(string userId);
+        Task<List<NoteDTO>> GetTicketNotesAsync(int ticketId, string userId);
+        Task<int> CreateTicket(CreateTicketDTO ticketDTO, string userId);
     }
 }

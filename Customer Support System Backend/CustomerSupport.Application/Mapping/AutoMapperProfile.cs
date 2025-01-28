@@ -10,6 +10,7 @@ namespace CustomerSupport.Application.Mapping
         {
             //CreateMap<Ticket, TicketDTO>().ReverseMap();
             CreateMap<CreateTicketDTO, Ticket>().ReverseMap();
+            CreateMap<Ticket, GetTicketDTO>();
         }
     }
 }

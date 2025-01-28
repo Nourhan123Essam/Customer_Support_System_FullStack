@@ -1,9 +1,13 @@
 ﻿using AutoMapper;
 using CustomerSupport.Application.DTOs.Note;
+using CustomerSupport.Application.DTOs.Rating;
 using CustomerSupport.Application.DTOs.Ticket;
 using CustomerSupport.Application.Services.Interfaces;
 using CustomerSupport.Domain.Entities;
+using CustomerSupport.Domain.Enums;
 using CustomerSupport.Domain.Interfaces;
+using System.Net.Sockets;
+using System.Security.Claims;
 
 namespace CustomerSupport.Application.Services.Implementations
 {
@@ -45,22 +49,19 @@ namespace CustomerSupport.Application.Services.Implementations
                 }
             }
 
-            //// Parsing Enums
-            //if (!Enum.TryParse<TicketStatus>(ticketDTO.Status, true, out var status))
-            //    throw new ArgumentException("Invalid status");
-
-            //if (!Enum.TryParse<TicketPriority>(ticketDTO.Priority, true, out var priority))
-            //    throw new ArgumentException("Invalid priority");
-
-            //ticket.Status = status;
-            //ticket.Priority = priority;
-
             await _ticketRepository.AddAsync(ticket);
             return ticket.Id;
         }
 
-        public async Task<List<NoteDTO>> GetTicketNotesAsync(int ticketId)
+        public async Task<List<NoteDTO>> GetTicketNotesAsync(int ticketId, string userId)
         {
+            // Get Ticket
+            var ticket = await _ticketRepository.GetByIdAsync(ticketId);
+
+            // Check if the user Authorized
+            if (ticket == null || ticket.CustomerUserId != userId)
+                throw new Exception("Ticket not found or you do not have access to it.");
+
             var notes = await _ticketRepository.GetTicketNotesAsync(ticketId);
             if (notes == null)
                 throw new KeyNotFoundException("Ticket not found.");
@@ -81,5 +82,67 @@ namespace CustomerSupport.Application.Services.Implementations
             return result;
         }
 
+        public async Task AddNoteAsync(AddNoteDTO addNoteDTO, string userId)
+        {
+            // Get Ticket
+            var ticket = await _ticketRepository.GetByIdAsync(addNoteDTO.TicketId);    
+            
+            // Check if the user Authorized
+            if (ticket == null || ticket.CustomerUserId != userId)
+                throw new Exception("Ticket not found or you do not have access to it.");
+
+            // Check if ticket exists and is not closed
+            var isClosed = await _ticketRepository.IsTicketClosedAsync(addNoteDTO.TicketId);
+            if (isClosed)
+                throw new InvalidOperationException("Cannot add a note to a closed ticket.");
+
+            // Create and save the note
+            var note = new Note
+            {
+                Content = addNoteDTO.Content,
+                TicketId = addNoteDTO.TicketId,
+                CreatedAt = DateTime.UtcNow,
+                UserId = userId
+            };
+
+            await _ticketRepository.AddNoteAsync(note);
+        }
+
+        public async Task<bool> AddRatingAsync(AddRatingDTO ratingDTO, string userId)
+        {
+            // Get the ticket
+            var ticket = await _ticketRepository.GetTicketWithRatingAsync(ratingDTO.TicketId);
+
+            if (ticket == null || ticket.CustomerUserId != userId)
+                throw new Exception("Ticket not found or you do not have access to it.");
+
+            if (ticket.Status != TicketStatus.Closed)
+                throw new Exception("Cannot add a rating to a ticket that is not closed.");
+
+            if (ticket.Rating != null)
+                throw new Exception("This ticket already has a rating.");
+
+            // Create the rating
+            var rating = new Rating
+            {
+                Score = ratingDTO.Score,
+                Feedback = ratingDTO.Feedback,
+                TicketId = ratingDTO.TicketId,
+                UserId = userId
+            };
+
+            ticket.Rating = rating; // Assign the rating to the ticket
+
+            // Save the changes
+            await _ticketRepository.Update(ticket);
+
+            return true;
+        }
+
+        public async Task<IEnumerable<GetTicketDTO>> GetUserTicketsAsync(string userId)
+        {
+            var tickets = await _ticketRepository.GetTicketsByUserIdAsync(userId);
+            return _mapper.Map<IEnumerable<GetTicketDTO>>(tickets);
+        }
     }
 }
