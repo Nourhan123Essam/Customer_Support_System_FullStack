@@ -108,41 +108,74 @@ namespace CustomerSupport.Application.Services.Implementations
             await _ticketRepository.AddNoteAsync(note);
         }
 
+        //public async Task<bool> AddRatingAsync(AddRatingDTO ratingDTO, string userId)
+        //{
+        //    // Get the ticket
+        //    var ticket = await _ticketRepository.GetTicketWithRatingAsync(ratingDTO.TicketId);
+
+        //    if (ticket == null || ticket.CustomerUserId != userId)
+        //        throw new Exception("Ticket not found or you do not have access to it.");
+
+        //    if (ticket.Status != TicketStatus.Closed)
+        //        throw new Exception("Cannot add a rating to a ticket that is not closed.");
+
+        //    if (ticket.Rating != null)
+        //        throw new Exception("This ticket already has a rating.");
+
+        //    // Create the rating
+        //    var rating = new Rating
+        //    {
+        //        Score = ratingDTO.Score,
+        //        Feedback = ratingDTO.Feedback,
+        //        TicketId = ratingDTO.TicketId,
+        //        UserId = userId
+        //    };
+
+        //    ticket.Rating = rating; // Assign the rating to the ticket
+
+        //    // Save the changes
+        //    await _ticketRepository.Update(ticket);
+
+        //    return true;
+        //}
+
         public async Task<bool> AddRatingAsync(AddRatingDTO ratingDTO, string userId)
         {
-            // Get the ticket
-            var ticket = await _ticketRepository.GetTicketWithRatingAsync(ratingDTO.TicketId);
+            var ticket = await _ticketRepository.GetByIdAsync(ratingDTO.TicketId);
 
-            if (ticket == null || ticket.CustomerUserId != userId)
-                throw new Exception("Ticket not found or you do not have access to it.");
+            if (ticket == null)
+                throw new KeyNotFoundException("Ticket not found.");
 
-            if (ticket.Status != TicketStatus.Closed)
-                throw new Exception("Cannot add a rating to a ticket that is not closed.");
-
+            // If a rating exists, update it; otherwise, create a new one
             if (ticket.Rating != null)
-                throw new Exception("This ticket already has a rating.");
-
-            // Create the rating
-            var rating = new Rating
             {
-                Score = ratingDTO.Score,
-                Feedback = ratingDTO.Feedback,
-                TicketId = ratingDTO.TicketId,
-                UserId = userId
-            };
+                ticket.Rating.Score = ratingDTO.Score;
+                ticket.Rating.Feedback = ratingDTO.Feedback;
+            }
+            else
+            {
+                ticket.Rating = new Rating
+                {
+                    Score = ratingDTO.Score,
+                    Feedback = ratingDTO.Feedback,
+                    UserId = userId,
+                };
+            }
 
-            ticket.Rating = rating; // Assign the rating to the ticket
-
-            // Save the changes
-            await _ticketRepository.Update(ticket);
-
+            await _ticketRepository.SaveChanges();
             return true;
         }
+
 
         public async Task<IEnumerable<GetTicketDTO>> GetUserTicketsAsync(string userId)
         {
             var tickets = await _ticketRepository.GetTicketsByUserIdAsync(userId);
             return _mapper.Map<IEnumerable<GetTicketDTO>>(tickets);
         }
+
+        //Task<bool> ITicketService.AddRatingAsync(AddRatingDTO ratingDTO, string userId)
+        //{
+        //    throw new NotImplementedException();
+        //}
     }
 }

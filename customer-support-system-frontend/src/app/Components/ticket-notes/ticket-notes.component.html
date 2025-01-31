@@ -1,0 +1,27 @@
+<div class="container mt-4">
+  <h2 class="text-center">ملاحظات التذكرة</h2>
+
+  <!-- Buttons aligned to the left with a small space -->
+  <div class="d-flex justify-content-start gap-2 mb-3">
+    <a [routerLink]="['/my-tickets']" class="btn btn-secondary">رجوع</a>
+    <a [routerLink]="['/create-note', ticketId]" class="btn btn-success">إضافة ملاحظة</a>
+  </div>
+
+  <!-- If no notes exist, show a message -->
+  <div *ngIf="notes.length === 0" class="text-center text-muted my-4">
+    لا توجد ملاحظات لهذه التذكرة.
+  </div>
+  
+  <div class="notes-container" *ngIf="notes.length > 0">
+    <div 
+      *ngFor="let note of notes" 
+      class="note-item row mb-3" 
+      [ngClass]="{'my-note': note.createdBy === userId, 'other-note': note.createdBy !== userId}"
+    >
+      <div class="note-content col-8 p-3 rounded">
+        <p>{{ note.content }}</p>
+        <span class="note-date text-muted">{{ note.createdAt | date: 'short' }}</span>
+      </div>
+    </div>
+  </div>
+</div>

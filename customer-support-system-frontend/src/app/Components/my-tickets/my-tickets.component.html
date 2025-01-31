@@ -1,0 +1,39 @@
+<div class="container mt-4">
+    <h2 class="text-center">📌 My Tickets</h2>
+  
+    <!-- Loading Indicator -->
+    <div *ngIf="loading" class="text-center">
+      <p>Loading tickets...</p>
+    </div>
+  
+    <!-- Error Message -->
+    <div *ngIf="errorMessage" class="alert alert-danger">
+      {{ errorMessage }}
+    </div>
+  
+    <!-- Tickets List -->
+     <div class="row">
+      <div *ngFor="let ticket of tickets" class="ticket-card col-md-3 col-12 gap-3 d-flex justify-content-between " 
+      style="background-color: #81daca65; border-radius: 10px; margin: 10px;">
+        <div class="ticket-details me-3">
+          <h5 class="ticket-title text-center">{{ ticket.title }}</h5>
+          <p class="ticket-description text-center">{{ ticket.description }}</p>
+      
+          <p class="text-end"><strong>الحالة:</strong> {{ ticket.status | ticketStatusPriority: 'status' }}</p>
+          <p class="text-end"><strong>الأولوية:</strong> {{ ticket.priority | ticketStatusPriority: 'priority' }}</p>
+      
+          <div class="ticket-actions">
+            <button (click)="viewNotes(ticket.id)" class="btn m-2" style="background-color: #005451; color: white;">عرض الملاحظات</button>
+            <button (click)="addFeedback(ticket.id)" class="btn m-2 text-end" style="background-color: green; color: white;">إضافة تقييم</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+    <!-- No Tickets Message -->
+    <div *ngIf="!loading && tickets.length === 0" class="text-center">
+      <p>No tickets found.</p>
+    </div>
+  </div>
+  

@@ -5,6 +5,18 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/Authentication": {
+      "options": {
+        "tags": [
+          "Authentication"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Authentication/register": {
       "post": {
         "tags": [

@@ -1,0 +1,41 @@
+<div class="login-container p-4" style="border-radius: 10px; background-color: #81DACA; color: #002E2C; font-size: 20px;">
+    <h4>تسجيل الدخول</h4>
+    <form (ngSubmit)="onSubmit()">
+      <div class="form-group row  py-3">
+          <div class="col-8">
+              <input
+              type="email"
+              id="Email"
+              [(ngModel)]="loginData.Email"
+              name="Email"
+              class="form-control"
+              required
+              />
+            </div>
+            <div class="col-4">
+                <label for="Email">:البريد الالكترونى</label>
+            </div>
+      </div>
+      <div class="form-group row py-3">
+            <div class="col-8">
+                <input
+                type="password"
+                id="Password"
+                [(ngModel)]="loginData.Password"
+                name="Password"
+                class="form-control"
+                required
+                />
+            </div>
+            <div class="col-4">
+                <label for="Password"> :كلمة المرور</label>
+            </div>
+      </div>
+      <div *ngIf="errorMessage" class="alert alert-danger py-3">
+        {{ errorMessage }}
+      </div>
+      <button type="submit" style="background-color: #00726F; color: white;" class="btn py-3">تسجيل الدخول</button>
+    </form>
+  </div>
+
+  

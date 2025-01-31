@@ -30,6 +30,11 @@ namespace CustomerSupport.Infrastructure.Repositories
                 .FirstOrDefaultAsync(t => t.Id == id);
         }
 
+        public async Task SaveChanges()
+        {
+            await _dbContext.SaveChangesAsync();
+        }
+
         public async Task<List<Note>> GetTicketNotesAsync(int ticketId)
         {
             var notes = await _dbContext.Notes

@@ -88,10 +88,15 @@ namespace CustomerSupport.Infrastructure.Repositories
         {
             var claims = new List<Claim>
             {
-                new Claim(JwtRegisteredClaimNames.Sub, user.Id), // User's unique ID
-                new Claim(JwtRegisteredClaimNames.Name, user.UserName), // User's username
-                new Claim(JwtRegisteredClaimNames.Email, user.Email), // User's email
-                new Claim(ClaimTypes.Role, "User") // Optional: User's role
+                //new Claim(JwtRegisteredClaimNames.Sub, user.Id), // User's unique ID
+                //new Claim(JwtRegisteredClaimNames.Name, user.UserName), // User's username
+                //new Claim(JwtRegisteredClaimNames.Email, user.Email), // User's email
+                //new Claim(ClaimTypes.Role, "User") // Optional: User's role
+
+                new Claim(ClaimTypes.NameIdentifier, user.Id),
+                new Claim(ClaimTypes.Name, user.UserName),
+                new Claim(ClaimTypes.Email, user.Email),
+                new Claim("UserType", "User")
             };
 
             var key = Encoding.UTF8.GetBytes(_configuration.GetSection("Jwt:Key").Value);
@@ -102,7 +107,7 @@ namespace CustomerSupport.Infrastructure.Repositories
                 issuer: _configuration["Jwt:Issuer"],
                 audience: _configuration["Jwt:Audience"],
                 claims: claims,
-                expires: DateTime.Now.AddMinutes(30),
+                expires: DateTime.Now.AddHours(24),
                 signingCredentials: credentials
             );
 

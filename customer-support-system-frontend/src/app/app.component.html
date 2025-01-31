@@ -1,0 +1,10 @@
+<app-header></app-header>
+
+@if(!isLoggedIn){
+  <app-welcome-page></app-welcome-page>
+}@else {
+  <!-- <app-home></app-home> -->
+  <router-outlet></router-outlet>
+
+}
+

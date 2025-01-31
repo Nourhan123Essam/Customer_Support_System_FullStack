@@ -1,6 +1,16 @@
 [
   {
     "ContainingType": "CustomerSupport.Presentation.Controllers.AuthenticationController",
+    "Method": "Preflight",
+    "RelativePath": "api/Authentication",
+    "HttpMethod": "OPTIONS",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CustomerSupport.Presentation.Controllers.AuthenticationController",
     "Method": "GetUser",
     "RelativePath": "api/Authentication/{id}",
     "HttpMethod": "GET",

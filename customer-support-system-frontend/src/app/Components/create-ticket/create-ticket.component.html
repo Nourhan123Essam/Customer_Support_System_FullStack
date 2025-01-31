@@ -1,0 +1,44 @@
+<div class="container-fluid m-4" >
+    <h2 class="text-center mt-2 mb-4">انشاء تذكرة جديدة</h2>
+    <div class="row text" style="display: flex; align-items: center; justify-content: center; font-size: 20px;">
+        <div class="col-10 p-5" style="background-color: #81daca65; border-radius: 10px;">
+            <form (ngSubmit)="submitTicket()">
+            <div class="mb-3">
+                <label class="form-label">عنوان</label>
+                <input type="text" class="form-control" [(ngModel)]="ticket.Title" name="title" required />
+            </div>
+        
+            <div class="mb-3">
+                <label class="form-label">وصف</label>
+                <textarea class="form-control" [(ngModel)]="ticket.Description" name="description" required></textarea>
+            </div>
+        
+            <div class="mb-3">
+                <label class="form-label">نوع</label>
+                <select class="form-control" [(ngModel)]="ticket.CategoryId" name="categoryId">
+                <option [value]="1">خطأ</option>
+                <option [value]="2">ميزة جديدة</option>
+                <option [value]="3">افتراح</option>
+                </select>
+            </div>
+        
+            <div class="mb-3">
+                <label class="form-label">الاولوية</label>
+                <select class="form-control" [(ngModel)]="ticket.Priority" name="priority">
+                <option value="0">منخفضة</option>
+                <option value="1">متوسط</option>
+                <option value="2">عالية</option>
+                </select>
+            </div>
+        
+            <div class="mb-3">
+                <label class="form-label">ملحقات</label>
+                <input type="file" class="form-control" (change)="onFileSelected($event)" multiple />
+            </div>
+        
+            <button type="submit" class="btn px-4 py-2" style="background-color: #005451; color: white;">انشاء</button>
+            </form>
+        </div>
+    </div>
+  </div>
+  

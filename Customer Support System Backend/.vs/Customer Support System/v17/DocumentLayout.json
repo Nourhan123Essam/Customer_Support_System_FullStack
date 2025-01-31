@@ -3,152 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system backend\\customersupport.application\\services\\implementations\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|solutionrelative:customersupport.application\\services\\implementations\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system backend\\customersupport.application\\services\\interfaces\\iticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|solutionrelative:customersupport.application\\services\\interfaces\\iticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D040EE1-76C3-4494-9B56-7265C24AEECA}|CustomerSupport.Presentation\\CustomerSupport.Presentation.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system backend\\customersupport.presentation\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D040EE1-76C3-4494-9B56-7265C24AEECA}|CustomerSupport.Presentation\\CustomerSupport.Presentation.csproj|solutionrelative:customersupport.presentation\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D040EE1-76C3-4494-9B56-7265C24AEECA}|CustomerSupport.Presentation\\CustomerSupport.Presentation.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system backend\\customersupport.presentation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D040EE1-76C3-4494-9B56-7265C24AEECA}|CustomerSupport.Presentation\\CustomerSupport.Presentation.csproj|solutionrelative:customersupport.presentation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system backend\\customersupport.infrastructure\\repositories\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|solutionrelative:customersupport.infrastructure\\repositories\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system backend\\customersupport.infrastructure\\repositories\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|solutionrelative:customersupport.infrastructure\\repositories\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system backend\\customersupport.domain\\interfaces\\iticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|solutionrelative:customersupport.domain\\interfaces\\iticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7D040EE1-76C3-4494-9B56-7265C24AEECA}|CustomerSupport.Presentation\\CustomerSupport.Presentation.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system backend\\customersupport.presentation\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D040EE1-76C3-4494-9B56-7265C24AEECA}|CustomerSupport.Presentation\\CustomerSupport.Presentation.csproj|solutionrelative:customersupport.presentation\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system backend\\customersupport.infrastructure\\repositories\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|solutionrelative:customersupport.infrastructure\\repositories\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7D040EE1-76C3-4494-9B56-7265C24AEECA}|CustomerSupport.Presentation\\CustomerSupport.Presentation.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system backend\\customersupport.presentation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D040EE1-76C3-4494-9B56-7265C24AEECA}|CustomerSupport.Presentation\\CustomerSupport.Presentation.csproj|solutionrelative:customersupport.presentation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system backend\\customersupport.application\\dtos\\user\\appuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|solutionrelative:customersupport.application\\dtos\\user\\appuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7D040EE1-76C3-4494-9B56-7265C24AEECA}|CustomerSupport.Presentation\\CustomerSupport.Presentation.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system backend\\customersupport.presentation\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D040EE1-76C3-4494-9B56-7265C24AEECA}|CustomerSupport.Presentation\\CustomerSupport.Presentation.csproj|solutionrelative:customersupport.presentation\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system backend\\customersupport.domain\\interfaces\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|solutionrelative:customersupport.domain\\interfaces\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system backend\\customersupport.application\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|solutionrelative:customersupport.application\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system backend\\customersupport.application\\dtos\\note\\notedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|solutionrelative:customersupport.application\\dtos\\note\\notedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system backend\\customersupport.domain\\enums\\ticketstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|solutionrelative:customersupport.domain\\enums\\ticketstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system backend\\customersupport.application\\mapping\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|solutionrelative:customersupport.application\\mapping\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system backend\\customersupport.application\\dtos\\ticket\\getticketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|solutionrelative:customersupport.application\\dtos\\ticket\\getticketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system backend\\customersupport.application\\dtos\\rating\\addratingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|solutionrelative:customersupport.application\\dtos\\rating\\addratingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system backend\\customersupport.application\\services\\implementations\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|solutionrelative:customersupport.application\\services\\implementations\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system backend\\customersupport.domain\\entities\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|solutionrelative:customersupport.domain\\entities\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system backend\\customersupport.domain\\interfaces\\iticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|solutionrelative:customersupport.domain\\interfaces\\iticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system backend\\customersupport.application\\dtos\\rating\\addratingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|solutionrelative:customersupport.application\\dtos\\rating\\addratingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system backend\\customersupport.application\\dtos\\note\\addnotedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|solutionrelative:customersupport.application\\dtos\\note\\addnotedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system backend\\customersupport.domain\\entities\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|solutionrelative:customersupport.domain\\entities\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system backend\\customersupport.infrastructure\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|solutionrelative:customersupport.infrastructure\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system backend\\customersupport.domain\\entities\\attachment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|solutionrelative:customersupport.domain\\entities\\attachment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system backend\\customersupport.application\\dtos\\ticket\\getticketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|solutionrelative:customersupport.application\\dtos\\ticket\\getticketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7D040EE1-76C3-4494-9B56-7265C24AEECA}|CustomerSupport.Presentation\\CustomerSupport.Presentation.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system backend\\customersupport.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D040EE1-76C3-4494-9B56-7265C24AEECA}|CustomerSupport.Presentation\\CustomerSupport.Presentation.csproj|solutionrelative:customersupport.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system backend\\customersupport.domain\\entities\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|solutionrelative:customersupport.domain\\entities\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system backend\\customersupport.application\\dtos\\ticket\\createticketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|solutionrelative:customersupport.application\\dtos\\ticket\\createticketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system backend\\customersupport.infrastructure\\dependencyinjections\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|solutionrelative:customersupport.infrastructure\\dependencyinjections\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system backend\\customersupport.domain\\entities\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|solutionrelative:customersupport.domain\\entities\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D040EE1-76C3-4494-9B56-7265C24AEECA}|CustomerSupport.Presentation\\CustomerSupport.Presentation.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system backend\\customersupport.presentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7D040EE1-76C3-4494-9B56-7265C24AEECA}|CustomerSupport.Presentation\\CustomerSupport.Presentation.csproj|solutionrelative:customersupport.presentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system backend\\customersupport.domain\\entities\\attachment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|solutionrelative:customersupport.domain\\entities\\attachment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system backend\\customersupport.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|solutionrelative:customersupport.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system backend\\customersupport.domain\\entities\\userassignedticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|solutionrelative:customersupport.domain\\entities\\userassignedticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system backend\\customersupport.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|solutionrelative:customersupport.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system backend\\customersupport.infrastructure\\data\\modelbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|solutionrelative:customersupport.infrastructure\\data\\modelbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system backend\\customersupport.infrastructure\\data\\migrations\\20250126162627_correct relationships.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|solutionrelative:customersupport.infrastructure\\data\\migrations\\20250126162627_correct relationships.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system backend\\customersupport.application\\dtos\\user\\getuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|solutionrelative:customersupport.application\\dtos\\user\\getuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system backend\\customersupport.application\\dtos\\user\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|solutionrelative:customersupport.application\\dtos\\user\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system backend\\customersupport.domain\\enums\\ticketpriority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|solutionrelative:customersupport.domain\\enums\\ticketpriority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D040EE1-76C3-4494-9B56-7265C24AEECA}|CustomerSupport.Presentation\\CustomerSupport.Presentation.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system backend\\customersupport.presentation\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7D040EE1-76C3-4494-9B56-7265C24AEECA}|CustomerSupport.Presentation\\CustomerSupport.Presentation.csproj|solutionrelative:customersupport.presentation\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system backend\\customersupport.domain\\responses\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|solutionrelative:customersupport.domain\\responses\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system backend\\customersupport.infrastructure\\data\\migrations\\20250126163425_add fluent api to correct relationships.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|solutionrelative:customersupport.infrastructure\\data\\migrations\\20250126163425_add fluent api to correct relationships.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system backend\\customersupport.infrastructure\\data\\migrations\\20250126134503_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|solutionrelative:customersupport.infrastructure\\data\\migrations\\20250126134503_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|c:\\users\\cs\\desktop\\my projects\\customer support system\\customer support system backend\\customersupport.application\\dtos\\user\\appuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|solutionrelative:customersupport.application\\dtos\\user\\appuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -158,20 +74,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Presentation\\Program.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Presentation\\Program.cs",
+              "RelativeToolTip": "CustomerSupport.Presentation\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T05:06:28.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Presentation\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Presentation\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Presentation\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "CustomerSupport.Presentation\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAewCIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T04:57:36.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TicketRepository.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Infrastructure\\Repositories\\TicketRepository.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Infrastructure\\Repositories\\TicketRepository.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Infrastructure\\Repositories\\TicketRepository.cs",
+              "RelativeToolTip": "CustomerSupport.Infrastructure\\Repositories\\TicketRepository.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAjwBMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T11:26:40.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "TicketService.cs",
               "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Application\\Services\\Implementations\\TicketService.cs",
               "RelativeDocumentMoniker": "CustomerSupport.Application\\Services\\Implementations\\TicketService.cs",
               "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Application\\Services\\Implementations\\TicketService.cs",
               "RelativeToolTip": "CustomerSupport.Application\\Services\\Implementations\\TicketService.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAjwD8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T14:13:27.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-29T11:14:48.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Rating.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Domain\\Entities\\Rating.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Domain\\Entities\\Rating.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Domain\\Entities\\Rating.cs",
+              "RelativeToolTip": "CustomerSupport.Domain\\Entities\\Rating.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T19:19:01.389Z"
             },
             {
               "$type": "Document",
@@ -181,449 +149,130 @@
               "RelativeDocumentMoniker": "CustomerSupport.Presentation\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Presentation\\Controllers\\UserController.cs",
               "RelativeToolTip": "CustomerSupport.Presentation\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwC4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T00:37:59.039Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ITicketRepository.cs",
-              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Domain\\Interfaces\\ITicketRepository.cs",
-              "RelativeDocumentMoniker": "CustomerSupport.Domain\\Interfaces\\ITicketRepository.cs",
-              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Domain\\Interfaces\\ITicketRepository.cs",
-              "RelativeToolTip": "CustomerSupport.Domain\\Interfaces\\ITicketRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T18:54:30.361Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TicketRepository.cs",
-              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Infrastructure\\Repositories\\TicketRepository.cs",
-              "RelativeDocumentMoniker": "CustomerSupport.Infrastructure\\Repositories\\TicketRepository.cs",
-              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Infrastructure\\Repositories\\TicketRepository.cs",
-              "RelativeToolTip": "CustomerSupport.Infrastructure\\Repositories\\TicketRepository.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAzwBoAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T14:20:26.146Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TicketController.cs",
-              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Presentation\\Controllers\\TicketController.cs",
-              "RelativeDocumentMoniker": "CustomerSupport.Presentation\\Controllers\\TicketController.cs",
-              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Presentation\\Controllers\\TicketController.cs",
-              "RelativeToolTip": "CustomerSupport.Presentation\\Controllers\\TicketController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwCUAAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T13:50:17.658Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ITicketService.cs",
-              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Application\\Services\\Interfaces\\ITicketService.cs",
-              "RelativeDocumentMoniker": "CustomerSupport.Application\\Services\\Interfaces\\ITicketService.cs",
-              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Application\\Services\\Interfaces\\ITicketService.cs",
-              "RelativeToolTip": "CustomerSupport.Application\\Services\\Interfaces\\ITicketService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T20:57:29.406Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AuthRepository.cs",
-              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Infrastructure\\Repositories\\AuthRepository.cs",
-              "RelativeDocumentMoniker": "CustomerSupport.Infrastructure\\Repositories\\AuthRepository.cs",
-              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Infrastructure\\Repositories\\AuthRepository.cs",
-              "RelativeToolTip": "CustomerSupport.Infrastructure\\Repositories\\AuthRepository.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAMwC4AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T19:59:23.781Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Application\\Services\\Interfaces\\IAuthService.cs",
-              "RelativeDocumentMoniker": "CustomerSupport.Application\\Services\\Interfaces\\IAuthService.cs",
-              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Application\\Services\\Interfaces\\IAuthService.cs",
-              "RelativeToolTip": "CustomerSupport.Application\\Services\\Interfaces\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T19:08:57.715Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IFileService.cs",
-              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Domain\\Interfaces\\IFileService.cs",
-              "RelativeDocumentMoniker": "CustomerSupport.Domain\\Interfaces\\IFileService.cs",
-              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Domain\\Interfaces\\IFileService.cs",
-              "RelativeToolTip": "CustomerSupport.Domain\\Interfaces\\IFileService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T14:36:32.465Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "NoteDTO.cs",
-              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Application\\DTOs\\Note\\NoteDTO.cs",
-              "RelativeDocumentMoniker": "CustomerSupport.Application\\DTOs\\Note\\NoteDTO.cs",
-              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Application\\DTOs\\Note\\NoteDTO.cs",
-              "RelativeToolTip": "CustomerSupport.Application\\DTOs\\Note\\NoteDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T20:56:23.788Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T12:40:53.062Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "GetTicketDTO.cs",
-              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Application\\DTOs\\Ticket\\GetTicketDTO.cs",
-              "RelativeDocumentMoniker": "CustomerSupport.Application\\DTOs\\Ticket\\GetTicketDTO.cs",
-              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Application\\DTOs\\Ticket\\GetTicketDTO.cs",
-              "RelativeToolTip": "CustomerSupport.Application\\DTOs\\Ticket\\GetTicketDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T01:21:50.969Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AutoMapperProfile.cs",
-              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Application\\Mapping\\AutoMapperProfile.cs",
-              "RelativeDocumentMoniker": "CustomerSupport.Application\\Mapping\\AutoMapperProfile.cs",
-              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Application\\Mapping\\AutoMapperProfile.cs",
-              "RelativeToolTip": "CustomerSupport.Application\\Mapping\\AutoMapperProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T20:09:34.928Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AppUserDTO.cs",
-              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Application\\DTOs\\User\\AppUserDTO.cs",
-              "RelativeDocumentMoniker": "CustomerSupport.Application\\DTOs\\User\\AppUserDTO.cs",
-              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Application\\DTOs\\User\\AppUserDTO.cs",
-              "RelativeToolTip": "CustomerSupport.Application\\DTOs\\User\\AppUserDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T08:48:01.53Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "AddRatingDTO.cs",
-              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Application\\DTOs\\Rating\\AddRatingDTO.cs",
-              "RelativeDocumentMoniker": "CustomerSupport.Application\\DTOs\\Rating\\AddRatingDTO.cs",
-              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Application\\DTOs\\Rating\\AddRatingDTO.cs",
-              "RelativeToolTip": "CustomerSupport.Application\\DTOs\\Rating\\AddRatingDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T00:51:57.269Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Rating.cs",
-              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Domain\\Entities\\Rating.cs",
-              "RelativeDocumentMoniker": "CustomerSupport.Domain\\Entities\\Rating.cs",
-              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Domain\\Entities\\Rating.cs",
-              "RelativeToolTip": "CustomerSupport.Domain\\Entities\\Rating.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T09:33:15.249Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AddNoteDTO.cs",
-              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Application\\DTOs\\Note\\AddNoteDTO.cs",
-              "RelativeDocumentMoniker": "CustomerSupport.Application\\DTOs\\Note\\AddNoteDTO.cs",
-              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Application\\DTOs\\Note\\AddNoteDTO.cs",
-              "RelativeToolTip": "CustomerSupport.Application\\DTOs\\Note\\AddNoteDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T00:40:19.294Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "TicketStatus.cs",
-              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Domain\\Enums\\TicketStatus.cs",
-              "RelativeDocumentMoniker": "CustomerSupport.Domain\\Enums\\TicketStatus.cs",
-              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Domain\\Enums\\TicketStatus.cs",
-              "RelativeToolTip": "CustomerSupport.Domain\\Enums\\TicketStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T18:53:20.098Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Note.cs",
-              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Domain\\Entities\\Note.cs",
-              "RelativeDocumentMoniker": "CustomerSupport.Domain\\Entities\\Note.cs",
-              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Domain\\Entities\\Note.cs",
-              "RelativeToolTip": "CustomerSupport.Domain\\Entities\\Note.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAowA8AAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T09:33:38.656Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Infrastructure\\DependencyInjections\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "CustomerSupport.Infrastructure\\DependencyInjections\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Infrastructure\\DependencyInjections\\DependencyInjection.cs",
-              "RelativeToolTip": "CustomerSupport.Infrastructure\\DependencyInjections\\DependencyInjection.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAAAEEAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T11:44:00.532Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
               "Title": "Ticket.cs",
               "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Domain\\Entities\\Ticket.cs",
               "RelativeDocumentMoniker": "CustomerSupport.Domain\\Entities\\Ticket.cs",
               "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Domain\\Entities\\Ticket.cs",
               "RelativeToolTip": "CustomerSupport.Domain\\Entities\\Ticket.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA+wBAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA1wB4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T18:52:32.051Z"
+              "WhenOpened": "2025-01-29T17:13:08.858Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Presentation\\Program.cs",
-              "RelativeDocumentMoniker": "CustomerSupport.Presentation\\Program.cs",
-              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Presentation\\Program.cs",
-              "RelativeToolTip": "CustomerSupport.Presentation\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA8AAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AuthRepository.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Infrastructure\\Repositories\\AuthRepository.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Infrastructure\\Repositories\\AuthRepository.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Infrastructure\\Repositories\\AuthRepository.cs",
+              "RelativeToolTip": "CustomerSupport.Infrastructure\\Repositories\\AuthRepository.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAnwCwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T20:01:42.645Z"
+              "WhenOpened": "2025-01-29T11:14:48.304Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "FileService.cs",
-              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Infrastructure\\Services\\FileService.cs",
-              "RelativeDocumentMoniker": "CustomerSupport.Infrastructure\\Services\\FileService.cs",
-              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Infrastructure\\Services\\FileService.cs",
-              "RelativeToolTip": "CustomerSupport.Infrastructure\\Services\\FileService.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBIAAAA3AAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "TicketController.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Presentation\\Controllers\\TicketController.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Presentation\\Controllers\\TicketController.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Presentation\\Controllers\\TicketController.cs",
+              "RelativeToolTip": "CustomerSupport.Presentation\\Controllers\\TicketController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T14:06:03.549Z"
+              "WhenOpened": "2025-01-29T11:14:48.252Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 8,
+              "Title": "AddRatingDTO.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Application\\DTOs\\Rating\\AddRatingDTO.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Application\\DTOs\\Rating\\AddRatingDTO.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Application\\DTOs\\Rating\\AddRatingDTO.cs",
+              "RelativeToolTip": "CustomerSupport.Application\\DTOs\\Rating\\AddRatingDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T18:02:36.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ITicketRepository.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Domain\\Interfaces\\ITicketRepository.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Domain\\Interfaces\\ITicketRepository.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Domain\\Interfaces\\ITicketRepository.cs",
+              "RelativeToolTip": "CustomerSupport.Domain\\Interfaces\\ITicketRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T19:10:18.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "CreateTicketDTO.cs",
               "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Application\\DTOs\\Ticket\\CreateTicketDTO.cs",
               "RelativeDocumentMoniker": "CustomerSupport.Application\\DTOs\\Ticket\\CreateTicketDTO.cs",
               "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Application\\DTOs\\Ticket\\CreateTicketDTO.cs",
               "RelativeToolTip": "CustomerSupport.Application\\DTOs\\Ticket\\CreateTicketDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T20:07:28.36Z"
+              "WhenOpened": "2025-01-29T12:59:21.371Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Presentation\\appsettings.json",
-              "RelativeDocumentMoniker": "CustomerSupport.Presentation\\appsettings.json",
-              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Presentation\\appsettings.json",
-              "RelativeToolTip": "CustomerSupport.Presentation\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-25T19:22:41.969Z"
+              "DocumentIndex": 10,
+              "Title": "GetTicketDTO.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Application\\DTOs\\Ticket\\GetTicketDTO.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Application\\DTOs\\Ticket\\GetTicketDTO.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Application\\DTOs\\Ticket\\GetTicketDTO.cs",
+              "RelativeToolTip": "CustomerSupport.Application\\DTOs\\Ticket\\GetTicketDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T12:41:32.867Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 9,
+              "Title": "AddNoteDTO.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Application\\DTOs\\Note\\AddNoteDTO.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Application\\DTOs\\Note\\AddNoteDTO.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Application\\DTOs\\Note\\AddNoteDTO.cs",
+              "RelativeToolTip": "CustomerSupport.Application\\DTOs\\Note\\AddNoteDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T14:27:04.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Attachment.cs",
               "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Domain\\Entities\\Attachment.cs",
               "RelativeDocumentMoniker": "CustomerSupport.Domain\\Entities\\Attachment.cs",
               "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Domain\\Entities\\Attachment.cs",
               "RelativeToolTip": "CustomerSupport.Domain\\Entities\\Attachment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T09:32:48.123Z"
+              "WhenOpened": "2025-01-29T17:11:42.494Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "ModelBuilderExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Infrastructure\\Data\\ModelBuilderExtensions.cs",
-              "RelativeDocumentMoniker": "CustomerSupport.Infrastructure\\Data\\ModelBuilderExtensions.cs",
-              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Infrastructure\\Data\\ModelBuilderExtensions.cs",
-              "RelativeToolTip": "CustomerSupport.Infrastructure\\Data\\ModelBuilderExtensions.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAswA0AAAAzAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "AppUserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Application\\DTOs\\User\\AppUserDTO.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Application\\DTOs\\User\\AppUserDTO.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Application\\DTOs\\User\\AppUserDTO.cs",
+              "RelativeToolTip": "CustomerSupport.Application\\DTOs\\User\\AppUserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T11:25:44.42Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Domain\\Entities\\Category.cs",
-              "RelativeDocumentMoniker": "CustomerSupport.Domain\\Entities\\Category.cs",
-              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Domain\\Entities\\Category.cs",
-              "RelativeToolTip": "CustomerSupport.Domain\\Entities\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T09:32:35.921Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "UserAssignedTicket.cs",
-              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Domain\\Entities\\UserAssignedTicket.cs",
-              "RelativeDocumentMoniker": "CustomerSupport.Domain\\Entities\\UserAssignedTicket.cs",
-              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Domain\\Entities\\UserAssignedTicket.cs",
-              "RelativeToolTip": "CustomerSupport.Domain\\Entities\\UserAssignedTicket.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T09:33:57.299Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "20250126163425_add fluent api to correct relationships.cs",
-              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Infrastructure\\Data\\Migrations\\20250126163425_add fluent api to correct relationships.cs",
-              "RelativeDocumentMoniker": "CustomerSupport.Infrastructure\\Data\\Migrations\\20250126163425_add fluent api to correct relationships.cs",
-              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Infrastructure\\Data\\Migrations\\20250126163425_add fluent api to correct relationships.cs",
-              "RelativeToolTip": "CustomerSupport.Infrastructure\\Data\\Migrations\\20250126163425_add fluent api to correct relationships.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T16:34:25.454Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Infrastructure\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "CustomerSupport.Infrastructure\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Infrastructure\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "CustomerSupport.Infrastructure\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAIwBQAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T18:56:50.916Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "20250126162627_correct relationships.cs",
-              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Infrastructure\\Data\\Migrations\\20250126162627_correct relationships.cs",
-              "RelativeDocumentMoniker": "CustomerSupport.Infrastructure\\Data\\Migrations\\20250126162627_correct relationships.cs",
-              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Infrastructure\\Data\\Migrations\\20250126162627_correct relationships.cs",
-              "RelativeToolTip": "CustomerSupport.Infrastructure\\Data\\Migrations\\20250126162627_correct relationships.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T16:26:30.237Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "GetUserDTO.cs",
-              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Application\\DTOs\\User\\GetUserDTO.cs",
-              "RelativeDocumentMoniker": "CustomerSupport.Application\\DTOs\\User\\GetUserDTO.cs",
-              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Application\\DTOs\\User\\GetUserDTO.cs",
-              "RelativeToolTip": "CustomerSupport.Application\\DTOs\\User\\GetUserDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T19:04:19.753Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "LoginDTO.cs",
-              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Application\\DTOs\\User\\LoginDTO.cs",
-              "RelativeDocumentMoniker": "CustomerSupport.Application\\DTOs\\User\\LoginDTO.cs",
-              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Application\\DTOs\\User\\LoginDTO.cs",
-              "RelativeToolTip": "CustomerSupport.Application\\DTOs\\User\\LoginDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T19:04:45.351Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "20250126134503_Initial.cs",
-              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Infrastructure\\Data\\Migrations\\20250126134503_Initial.cs",
-              "RelativeDocumentMoniker": "CustomerSupport.Infrastructure\\Data\\Migrations\\20250126134503_Initial.cs",
-              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Infrastructure\\Data\\Migrations\\20250126134503_Initial.cs",
-              "RelativeToolTip": "CustomerSupport.Infrastructure\\Data\\Migrations\\20250126134503_Initial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T13:45:03.226Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "TicketPriority.cs",
-              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Domain\\Enums\\TicketPriority.cs",
-              "RelativeDocumentMoniker": "CustomerSupport.Domain\\Enums\\TicketPriority.cs",
-              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Domain\\Enums\\TicketPriority.cs",
-              "RelativeToolTip": "CustomerSupport.Domain\\Enums\\TicketPriority.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T08:42:10.096Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Presentation\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "CustomerSupport.Presentation\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Presentation\\Properties\\launchSettings.json",
-              "RelativeToolTip": "CustomerSupport.Presentation\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-26T09:29:04.041Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Response.cs",
-              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Domain\\Responses\\Response.cs",
-              "RelativeDocumentMoniker": "CustomerSupport.Domain\\Responses\\Response.cs",
-              "ToolTip": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Domain\\Responses\\Response.cs",
-              "RelativeToolTip": "CustomerSupport.Domain\\Responses\\Response.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T08:42:21.461Z"
+              "WhenOpened": "2025-01-29T05:03:03.411Z"
             }
           ]
         }

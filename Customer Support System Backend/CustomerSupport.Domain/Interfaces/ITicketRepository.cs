@@ -17,5 +17,6 @@ namespace CustomerSupport.Domain.Interfaces
         Task Update(Ticket ticket);
         Task<bool> IsTicketClosedAsync(int ticketId);
         Task<IEnumerable<Ticket>> GetTicketsByUserIdAsync(string userId);
+        Task SaveChanges();
     }
 }

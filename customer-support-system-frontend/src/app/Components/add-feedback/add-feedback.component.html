@@ -1,0 +1,18 @@
+<div class="container mt-4">
+    <h2 class="text-center">إضافة تقييم</h2>
+  
+    <div class="rating-stars text-center my-3">
+      <span *ngFor="let star of [1,2,3,4,5]" class="star"
+            [class.filled]="star <= rating"
+            (click)="setRating(star)">
+        ★
+      </span>
+    </div>
+  
+    <textarea [(ngModel)]="feedback" class="form-control mb-3" placeholder="أدخل ملاحظاتك..."></textarea>
+    
+    <div class="d-flex justify-content-start gap-2">
+      <button class="btn btn-primary" (click)="submitRating()">إرسال التقييم</button>
+      <a [routerLink]="['/my-tickets']" class="btn btn-secondary">إلغاء</a>
+    </div>
+  </div>

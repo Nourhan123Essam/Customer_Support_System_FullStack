@@ -1,0 +1,27 @@
+<div class="container-fluid" style="height: 80vh; display: flex; align-items: center; justify-content: center;">
+    <div class="row text-center" style="width: 100%; justify-content: center; align-items: center; color: #005451;">
+      <!-- Left Part (Company Information) -->
+      <div class="col-md-6 p-8 bg-gray-100 ">
+        <h2 class="font-bold">مرحبًا بكم في منصتنا!</h2>
+        <p class="text-lg">
+          نحن نقدم حلولاً مبتكرة وموثوقة لتمكين الشركات من التعامل مع المشكلات والاقتراحات والتعليقات من العملاء بسهولة. من خلال نظام الدعم الذي نقدمه، يمكنكم تقديم تذاكر الدعم بكل سهولة، وسيقوم فريقنا بالرد عليكم في أسرع وقت ممكن لضمان رضاكم التام.
+        </p>
+      </div>
+  
+      <!-- Right Part (Login/Register) -->
+      <div class="col-md-6">
+        <div *ngIf="!isRegistering">
+          <!-- <h4>تسجيل الدخول</h4> -->
+          <app-login></app-login> <!-- Login Component -->
+          <p class="py-4">ليس لديك حساب؟ <span style="color: blue; cursor: pointer;" (click)="wantRegister()">انشاء حساب</span></p>
+        </div>
+        <div *ngIf="isRegistering">
+          <!-- <h4>انشاء حساب</h4> -->
+          <app-register></app-register> <!-- Register Component, shown if 'isRegistering' is true -->
+          <p class="py-4">لديك حساب؟ <span style="color: blue; cursor: pointer;" (click)="wantRegister()">سجل دخول</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  

@@ -18,6 +18,13 @@ namespace CustomerSupport.Presentation.Controllers
             _authService = authService;
         }
 
+        [HttpOptions]
+        public IActionResult Preflight()
+        {
+            return NoContent(); // Respond with 204 No Content
+        }
+
+
         [HttpPost("register")]
         public async Task<ActionResult<Response>> Register(AppUserDTO appUserDTO)
         {
