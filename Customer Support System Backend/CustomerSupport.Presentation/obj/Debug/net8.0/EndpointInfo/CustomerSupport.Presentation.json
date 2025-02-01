@@ -152,6 +152,18 @@
         }
       }
     },
+    "/api/Ticket": {
+      "options": {
+        "tags": [
+          "Ticket"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Ticket/create": {
       "post": {
         "tags": [
@@ -239,6 +251,18 @@
               "format": "int32"
             }
           }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/User": {
+      "options": {
+        "tags": [
+          "User"
         ],
         "responses": {
           "200": {

@@ -89,6 +89,16 @@
   },
   {
     "ContainingType": "CustomerSupport.Presentation.Controllers.TicketController",
+    "Method": "Preflight",
+    "RelativePath": "api/Ticket",
+    "HttpMethod": "OPTIONS",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CustomerSupport.Presentation.Controllers.TicketController",
     "Method": "GetTicketNotes",
     "RelativePath": "api/Ticket/{ticketId}/notes",
     "HttpMethod": "GET",
@@ -147,6 +157,16 @@
         "IsRequired": false
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CustomerSupport.Presentation.Controllers.UserController",
+    "Method": "Preflight",
+    "RelativePath": "api/User",
+    "HttpMethod": "OPTIONS",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

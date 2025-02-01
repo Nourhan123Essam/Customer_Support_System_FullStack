@@ -108,43 +108,18 @@ namespace CustomerSupport.Application.Services.Implementations
             await _ticketRepository.AddNoteAsync(note);
         }
 
-        //public async Task<bool> AddRatingAsync(AddRatingDTO ratingDTO, string userId)
-        //{
-        //    // Get the ticket
-        //    var ticket = await _ticketRepository.GetTicketWithRatingAsync(ratingDTO.TicketId);
-
-        //    if (ticket == null || ticket.CustomerUserId != userId)
-        //        throw new Exception("Ticket not found or you do not have access to it.");
-
-        //    if (ticket.Status != TicketStatus.Closed)
-        //        throw new Exception("Cannot add a rating to a ticket that is not closed.");
-
-        //    if (ticket.Rating != null)
-        //        throw new Exception("This ticket already has a rating.");
-
-        //    // Create the rating
-        //    var rating = new Rating
-        //    {
-        //        Score = ratingDTO.Score,
-        //        Feedback = ratingDTO.Feedback,
-        //        TicketId = ratingDTO.TicketId,
-        //        UserId = userId
-        //    };
-
-        //    ticket.Rating = rating; // Assign the rating to the ticket
-
-        //    // Save the changes
-        //    await _ticketRepository.Update(ticket);
-
-        //    return true;
-        //}
-
+        
         public async Task<bool> AddRatingAsync(AddRatingDTO ratingDTO, string userId)
         {
             var ticket = await _ticketRepository.GetByIdAsync(ratingDTO.TicketId);
 
+            // Ensure the ticket exist
             if (ticket == null)
                 throw new KeyNotFoundException("Ticket not found.");
+
+            // Ensure the user is the creator of the ticket
+            if (ticket.CustomerUserId != userId)
+                throw new UnauthorizedAccessException("You can only rate your own tickets.");
 
             // If a rating exists, update it; otherwise, create a new one
             if (ticket.Rating != null)
@@ -154,15 +129,17 @@ namespace CustomerSupport.Application.Services.Implementations
             }
             else
             {
+                // Create a new rating
                 ticket.Rating = new Rating
                 {
                     Score = ratingDTO.Score,
                     Feedback = ratingDTO.Feedback,
-                    UserId = userId,
+                    UserId = userId,  // Associate rating with the ticket creator
+                    TicketId = ticket.Id
                 };
             }
 
-            await _ticketRepository.SaveChanges();
+            await _ticketRepository.Update(ticket);
             return true;
         }
 

@@ -2,6 +2,7 @@ using CustomerSupport.Application.Mapping;
 using CustomerSupport.Application.Services.Implementations;
 using CustomerSupport.Application.Services.Interfaces;
 using CustomerSupport.Infrastructure.DependencyInjections;
+using Microsoft.AspNetCore.Http.Features;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -31,6 +32,13 @@ builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
 
 // Register Infrastructure dependencies
 builder.Services.AddInfrastructure(builder.Configuration);
+
+// Allow files size up to 100 MB
+builder.Services.Configure<FormOptions>(options =>
+{
+    options.MultipartBodyLengthLimit = 104857600; // 100 MB
+});
+
 
 var app = builder.Build();
 

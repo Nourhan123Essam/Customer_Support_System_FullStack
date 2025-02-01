@@ -27,6 +27,7 @@ namespace CustomerSupport.Infrastructure.Repositories
             return await _dbContext.Tickets
                 .Include(t => t.Attachments)
                 //.Include(t => t.Notes)
+                .Include(t => t.Rating)
                 .FirstOrDefaultAsync(t => t.Id == id);
         }
 

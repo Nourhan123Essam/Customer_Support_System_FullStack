@@ -19,9 +19,23 @@ namespace CustomerSupport.Presentation.Controllers
             _ticketService = ticketService;
         }
 
+        [HttpOptions]
+        public IActionResult Preflight()
+        {
+            return NoContent(); // Respond with 204 No Content
+        }
+
+
+
         [HttpPost("create")]      
         public async Task<IActionResult> CreateTicket([FromForm] CreateTicketDTO ticketDTO)
         {
+            if (!ModelState.IsValid)
+            {
+                var errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage);
+                return BadRequest(new { Errors = errors });
+            }
+
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
             var ticketId = await _ticketService.CreateTicket(ticketDTO, userId);
             return Ok(new { TicketId = ticketId, Message = "Ticket created successfully" });

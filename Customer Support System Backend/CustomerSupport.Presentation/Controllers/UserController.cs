@@ -19,6 +19,13 @@ namespace CustomerSupport.Presentation.Controllers
         {
             _ticketService = ticketService;
         }
+        [HttpOptions]
+        public IActionResult Preflight()
+        {
+            return NoContent(); // Respond with 204 No Content
+        }
+
+
 
         [HttpPost("add-note")]
         public async Task<IActionResult> AddNote([FromBody] AddNoteDTO addNoteDTO)

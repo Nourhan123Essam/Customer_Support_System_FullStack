@@ -29,11 +29,11 @@ export class CreateTicketComponent {
   }
 
   submitTicket() {
-    // debugger;
+     debugger;
     this.ticketService.createTicket(this.ticket).subscribe({
       next: (response) => {
         alert('Ticket created successfully!');
-        this.router.navigate(['/home']); // Redirect to home
+        this.router.navigate(['/my-tickets']); // Redirect to home
       },
       error: (error) => {
         console.error('Error creating ticket:', error);
