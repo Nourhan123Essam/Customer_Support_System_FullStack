@@ -3,6 +3,7 @@ using CustomerSupport.Domain.Entities;
 using CustomerSupport.Domain.Interfaces;
 using CustomerSupport.Infrastructure.Data;
 using CustomerSupport.Infrastructure.Repositories;
+using CustomerSupport.Infrastructure.Seeding;
 using CustomerSupport.Infrastructure.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
@@ -95,6 +96,16 @@ namespace CustomerSupport.Infrastructure.DependencyInjections
             services.AddScoped<ITicketRepository, TicketRepository>();
 
             return services;
+        }
+        
+
+        // Ensures database seeding occurs when the app starts.
+        public static async Task SeedDatabaseAsync(this IServiceProvider serviceProvider)
+        {
+            using var scope = serviceProvider.CreateScope();
+            var scopedServices = scope.ServiceProvider;
+
+            await DatabaseSeeder.SeedAsync(scopedServices);
         }
     }
 }

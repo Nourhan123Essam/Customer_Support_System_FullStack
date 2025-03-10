@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IKHUZ9iUGhs=",
+  "dgSpecHash": "3ez3b0BcLFg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\CS\\Desktop\\My projects\\Customer_Support_System_FullStack\\Customer Support System Backend\\CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CS\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\CS\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

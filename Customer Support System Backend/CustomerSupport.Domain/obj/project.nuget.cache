@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JwGpVvBpPYA=",
+  "dgSpecHash": "IvPz2eGYFmI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Domain\\CustomerSupport.Domain.csproj",
+  "projectFilePath": "C:\\Users\\CS\\Desktop\\My projects\\Customer_Support_System_FullStack\\Customer Support System Backend\\CustomerSupport.Domain\\CustomerSupport.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CS\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
     "C:\\Users\\CS\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",

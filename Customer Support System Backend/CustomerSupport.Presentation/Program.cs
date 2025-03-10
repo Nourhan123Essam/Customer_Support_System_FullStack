@@ -42,6 +42,13 @@ builder.Services.Configure<FormOptions>(options =>
 
 var app = builder.Build();
 
+// Apply database seeding
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    await services.SeedDatabaseAsync();
+}
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Domain\\CustomerSupport.Domain.csproj": {}
+    "C:\\Users\\CS\\Desktop\\My projects\\Customer_Support_System_FullStack\\Customer Support System Backend\\CustomerSupport.Domain\\CustomerSupport.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Domain\\CustomerSupport.Domain.csproj": {
+    "C:\\Users\\CS\\Desktop\\My projects\\Customer_Support_System_FullStack\\Customer Support System Backend\\CustomerSupport.Domain\\CustomerSupport.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Domain\\CustomerSupport.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\CS\\Desktop\\My projects\\Customer_Support_System_FullStack\\Customer Support System Backend\\CustomerSupport.Domain\\CustomerSupport.Domain.csproj",
         "projectName": "CustomerSupport.Domain",
-        "projectPath": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Domain\\CustomerSupport.Domain.csproj",
+        "projectPath": "C:\\Users\\CS\\Desktop\\My projects\\Customer_Support_System_FullStack\\Customer Support System Backend\\CustomerSupport.Domain\\CustomerSupport.Domain.csproj",
         "packagesPath": "C:\\Users\\CS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CS\\Desktop\\my projects\\Customer Support System\\Customer Support System Backend\\CustomerSupport.Domain\\obj\\",
+        "outputPath": "C:\\Users\\CS\\Desktop\\My projects\\Customer_Support_System_FullStack\\Customer Support System Backend\\CustomerSupport.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -71,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
