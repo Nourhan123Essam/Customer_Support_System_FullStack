@@ -11,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|solutionrelative:customersupport.infrastructure\\seeding\\databaseseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D040EE1-76C3-4494-9B56-7265C24AEECA}|CustomerSupport.Presentation\\CustomerSupport.Presentation.csproj|c:\\users\\cs\\desktop\\my projects\\customer_support_system_fullstack\\customer support system backend\\customersupport.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D040EE1-76C3-4494-9B56-7265C24AEECA}|CustomerSupport.Presentation\\CustomerSupport.Presentation.csproj|solutionrelative:customersupport.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|c:\\users\\cs\\desktop\\my projects\\customer_support_system_fullstack\\customer support system backend\\customersupport.infrastructure\\dependencyinjections\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|solutionrelative:customersupport.infrastructure\\dependencyinjections\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D040EE1-76C3-4494-9B56-7265C24AEECA}|CustomerSupport.Presentation\\CustomerSupport.Presentation.csproj|c:\\users\\cs\\desktop\\my projects\\customer_support_system_fullstack\\customer support system backend\\customersupport.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D040EE1-76C3-4494-9B56-7265C24AEECA}|CustomerSupport.Presentation\\CustomerSupport.Presentation.csproj|solutionrelative:customersupport.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B1854E8E-3A17-4EEF-B5BD-A32A8DA3302A}|CustomerSupport.Application\\CustomerSupport.Application.csproj|c:\\users\\cs\\desktop\\my projects\\customer_support_system_fullstack\\customer support system backend\\customersupport.application\\services\\implementations\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -104,7 +104,7 @@
               "RelativeDocumentMoniker": "CustomerSupport.Presentation\\appsettings.json",
               "ToolTip": "C:\\Users\\CS\\Desktop\\My projects\\Customer_Support_System_FullStack\\Customer Support System Backend\\CustomerSupport.Presentation\\appsettings.json",
               "RelativeToolTip": "CustomerSupport.Presentation\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAwBMAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-03-10T20:17:44.179Z",
               "EditorCaption": ""
@@ -117,7 +117,7 @@
               "RelativeDocumentMoniker": "CustomerSupport.Infrastructure\\Seeding\\DatabaseSeeder.cs",
               "ToolTip": "C:\\Users\\CS\\Desktop\\My projects\\Customer_Support_System_FullStack\\Customer Support System Backend\\CustomerSupport.Infrastructure\\Seeding\\DatabaseSeeder.cs",
               "RelativeToolTip": "CustomerSupport.Infrastructure\\Seeding\\DatabaseSeeder.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAcwBgAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAkwCcAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-10T19:56:50.907Z",
               "EditorCaption": ""
@@ -132,18 +132,17 @@
               "RelativeToolTip": "CustomerSupport.Infrastructure\\Services\\FileService.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T19:25:20.894Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-10T19:25:20.894Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\CS\\Desktop\\My projects\\Customer_Support_System_FullStack\\Customer Support System Backend\\CustomerSupport.Infrastructure\\DependencyInjections\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "CustomerSupport.Infrastructure\\DependencyInjections\\DependencyInjection.cs",
               "ToolTip": "C:\\Users\\CS\\Desktop\\My projects\\Customer_Support_System_FullStack\\Customer Support System Backend\\CustomerSupport.Infrastructure\\DependencyInjections\\DependencyInjection.cs",
               "RelativeToolTip": "CustomerSupport.Infrastructure\\DependencyInjections\\DependencyInjection.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAqwG4AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAYwGgAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-10T19:16:42.638Z",
               "EditorCaption": ""
@@ -158,8 +157,7 @@
               "RelativeToolTip": "CustomerSupport.Domain\\Responses\\Response.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T19:14:38.677Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-10T19:14:38.677Z"
             },
             {
               "$type": "Document",
@@ -176,13 +174,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\CS\\Desktop\\My projects\\Customer_Support_System_FullStack\\Customer Support System Backend\\CustomerSupport.Presentation\\Program.cs",
               "RelativeDocumentMoniker": "CustomerSupport.Presentation\\Program.cs",
               "ToolTip": "C:\\Users\\CS\\Desktop\\My projects\\Customer_Support_System_FullStack\\Customer Support System Backend\\CustomerSupport.Presentation\\Program.cs",
               "RelativeToolTip": "CustomerSupport.Presentation\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAMAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-29T05:06:28.302Z",
               "EditorCaption": ""

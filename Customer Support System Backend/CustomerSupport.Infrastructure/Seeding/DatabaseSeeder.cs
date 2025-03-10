@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace CustomerSupport.Infrastructure.Seeding
@@ -35,9 +36,11 @@ namespace CustomerSupport.Infrastructure.Seeding
         public static async Task SeedAdminUserAsync(IServiceProvider serviceProvider)
         {
             var userManager = serviceProvider.GetRequiredService<UserManager<IdentityUser>>();
+            var configuration = serviceProvider.GetRequiredService<IConfiguration>(); // Retrieve config
 
-            string adminEmail = "admin@support.com";
-            string adminPassword = "Admin@123"; // Change this in production!
+            // Fetch admin credentials from configuration
+            string adminEmail = configuration["AdminSettings:Email"] ?? "admin@support.com";
+            string adminPassword = configuration["AdminSettings:Password"] ?? "Admin@123"; // Change in production!
 
             if (!await userManager.Users.AnyAsync(u => u.Email == adminEmail))
             {
@@ -53,7 +56,7 @@ namespace CustomerSupport.Infrastructure.Seeding
                 {
                     await userManager.AddToRoleAsync(adminUser, "Admin");
                 }
-            }
+            }           
         }
 
         /// <summary>
@@ -64,5 +67,6 @@ namespace CustomerSupport.Infrastructure.Seeding
             await SeedRolesAsync(serviceProvider);
             await SeedAdminUserAsync(serviceProvider);
         }
+
     }
 }
