@@ -13,7 +13,7 @@ namespace CustomerSupport.Application.Services.Interfaces
     {
         Task AddNoteAsync(AddNoteDTO addNoteDTO, string userId);
         Task<bool> AddRatingAsync(AddRatingDTO ratingDTO, string userId);
-        Task<IEnumerable<GetTicketDTO>> GetUserTicketsAsync(string userId);
+        public Task<List<GetTicketDTO>> GetTicketsAsync(string userRole, string userId);
         Task<List<NoteDTO>> GetTicketNotesAsync(int ticketId, string userId);
         Task<int> CreateTicket(CreateTicketDTO ticketDTO, string userId);
     }

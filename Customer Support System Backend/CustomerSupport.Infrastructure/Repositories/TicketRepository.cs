@@ -9,6 +9,14 @@ namespace CustomerSupport.Infrastructure.Repositories
 {
     public class TicketRepository : ITicketRepository
     {
+        private static readonly Dictionary<string, Func<IQueryable<Ticket>, string, IQueryable<Ticket>>> TicketFilters =
+        new()
+        {
+            { "Customer", (tickets, userId) => tickets.Where(t => t.CustomerUserId == userId) },
+            { "SupportAgent", (tickets, userId) => tickets.Where(t => t.CustomerSupportUserId == userId) },
+            { "Admin", (tickets, _) => tickets } // Admin sees all tickets
+        };
+
         private readonly AppDbContext _dbContext;
 
         public TicketRepository(AppDbContext dbContext)
@@ -73,11 +81,24 @@ namespace CustomerSupport.Infrastructure.Repositories
             await _dbContext.SaveChangesAsync();
         }
 
-        public async Task<IEnumerable<Ticket>> GetTicketsByUserIdAsync(string userId)
+
+        // from here we refactore the code
+        public async Task<List<Ticket>> GetFilteredTicketsAsync(string userRole, string userId)
         {
-            return await _dbContext.Tickets
-                .Where(t => t.CustomerUserId == userId)
-                .ToListAsync();
+
+            var tickets = _dbContext.Tickets.AsQueryable();
+
+            if (TicketFilters.TryGetValue(userRole, out var filter))
+            {
+                tickets = filter(tickets, userId); // Apply role-based filter
+            }
+
+            return await tickets.ToListAsync(); // Execute query asynchronously
+
+
+            //return await _dbContext.Tickets
+            //    .Where(t => t.CustomerUserId == userId)
+            //    .ToListAsync();
         }
     }
 }

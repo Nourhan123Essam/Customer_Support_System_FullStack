@@ -144,10 +144,22 @@ namespace CustomerSupport.Application.Services.Implementations
         }
 
 
-        public async Task<IEnumerable<GetTicketDTO>> GetUserTicketsAsync(string userId)
+        //public async Task<IEnumerable<GetTicketDTO>> GetUserTicketsAsync(string userId)
+        //{
+        //    var tickets = await _ticketRepository.GetTicketsByUserIdAsync(userId);
+        //    return _mapper.Map<IEnumerable<GetTicketDTO>>(tickets);
+        //}
+
+        //public async Task<List<Ticket>> GetTicketsAsync(string userRole, string userId)
+        //{
+        //    var tickets = await _ticketRepository.GetFilteredTicketsAsync(userRole, userId);
+        //    return _mapper.Map<List<GetTicketDTO>>(tickets);
+        //}
+
+        public async Task<List<GetTicketDTO>> GetTicketsAsync(string userRole, string userId)
         {
-            var tickets = await _ticketRepository.GetTicketsByUserIdAsync(userId);
-            return _mapper.Map<IEnumerable<GetTicketDTO>>(tickets);
+            var tickets = await _ticketRepository.GetFilteredTicketsAsync(userRole, userId);
+            return _mapper.Map<List<GetTicketDTO>>(tickets);
         }
 
         //Task<bool> ITicketService.AddRatingAsync(AddRatingDTO ratingDTO, string userId)

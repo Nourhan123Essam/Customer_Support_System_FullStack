@@ -15,9 +15,11 @@ namespace CustomerSupport.Presentation.Controllers
     public class UserController : ControllerBase
     {
         private readonly ITicketService _ticketService;
-        public UserController(ITicketService ticketService)
+        private readonly IHttpContextAccessor _httpContextAccessor;
+        public UserController(ITicketService ticketService, IHttpContextAccessor httpContextAccessor)
         {
             _ticketService = ticketService;
+            _httpContextAccessor = httpContextAccessor;
         }
         [HttpOptions]
         public IActionResult Preflight()
@@ -71,12 +73,21 @@ namespace CustomerSupport.Presentation.Controllers
         [HttpGet("my-tickets")]
         public async Task<IActionResult> GetUserTickets()
         {
-            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            //var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
 
-            if (string.IsNullOrEmpty(userId))
-                return Unauthorized(new { Message = "Invalid user ID" });
+            //if (string.IsNullOrEmpty(userId))
+            //    return Unauthorized(new { Message = "Invalid user ID" });
 
-            var tickets = await _ticketService.GetUserTicketsAsync(userId);
+            //var tickets = await _ticketService.GetUserTicketsAsync(userId);
+            //return Ok(tickets);
+
+            var userId = _httpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            var userRole = _httpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.Role)?.Value;
+
+            if (userId == null || userRole == null)
+                return Unauthorized();
+
+            var tickets = await _ticketService.GetTicketsAsync(userRole, userId);
             return Ok(tickets);
         }
 

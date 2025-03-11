@@ -23,6 +23,9 @@ builder.Services.AddCors(options =>
     });
 });
 
+// Enables access to the current HTTP context for retrieving user details.  
+builder.Services.AddHttpContextAccessor();
+
 // Register Services
 builder.Services.AddScoped<ITicketService, TicketService>();
 

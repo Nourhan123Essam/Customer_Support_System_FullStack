@@ -43,22 +43,29 @@ namespace CustomerSupport.Infrastructure.Repositories
 
         public async Task<Response> Register(AppUserDTO appUserDTO)
         {
-            //check if exist
+            // Check if the user already exists
             var getUser = await GetUserByEmailAsync(appUserDTO.Email);
             if (getUser is not null)
-                return new Response(false, $"This email already registred");
+                return new Response(false, $"This email is already registered");
 
+            // Create a new user
             var newUser = new IdentityUser()
             {
                 Email = appUserDTO.Email,
                 UserName = appUserDTO.Name,
                 PhoneNumber = appUserDTO.TelephoneNumber
             };
-            var user = await _userManager.CreateAsync(newUser, appUserDTO.Password);
-            return user.Succeeded ?
-                new Response(true, "User registered successfully") :
-                new Response(false, "Invalid data provided");
+
+            var userResult = await _userManager.CreateAsync(newUser, appUserDTO.Password);
+            if (!userResult.Succeeded)
+                return new Response(false, "Invalid data provided");
+
+            // Assign "Customer" role by default
+            await _userManager.AddToRoleAsync(newUser, "Customer");
+
+            return new Response(true, "User registered successfully");
         }
+
 
         public async Task<Response> Login(LoginDTO loginDTO)
         {

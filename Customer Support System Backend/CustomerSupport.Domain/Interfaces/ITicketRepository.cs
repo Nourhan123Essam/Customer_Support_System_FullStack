@@ -16,7 +16,7 @@ namespace CustomerSupport.Domain.Interfaces
         Task<Ticket> GetTicketWithRatingAsync(int ticketId);
         Task Update(Ticket ticket);
         Task<bool> IsTicketClosedAsync(int ticketId);
-        Task<IEnumerable<Ticket>> GetTicketsByUserIdAsync(string userId);
+        Task<List<Ticket>> GetFilteredTicketsAsync(string userRole, string userId);
         Task SaveChanges();
     }
 }
