@@ -24,12 +24,6 @@ namespace CustomerSupport.Infrastructure.Repositories
             _dbContext = dbContext;
         }
 
-        public async Task AddAsync(Ticket ticket)
-        {
-            await _dbContext.Tickets.AddAsync(ticket);
-            await _dbContext.SaveChangesAsync();
-        }
-
         public async Task<Ticket> GetByIdAsync(int id)
         {
             return await _dbContext.Tickets
@@ -82,7 +76,9 @@ namespace CustomerSupport.Infrastructure.Repositories
         }
 
 
-        // from here we refactore the code
+        /// <summary>
+        /// From here the functions reviewed and added recently until refactor all the project
+        /// </summary>
         public async Task<List<Ticket>> GetFilteredTicketsAsync(string userRole, string userId)
         {
 
@@ -94,11 +90,12 @@ namespace CustomerSupport.Infrastructure.Repositories
             }
 
             return await tickets.ToListAsync(); // Execute query asynchronously
+        }
 
-
-            //return await _dbContext.Tickets
-            //    .Where(t => t.CustomerUserId == userId)
-            //    .ToListAsync();
+        public async Task AddAsync(Ticket ticket)
+        {
+            await _dbContext.Tickets.AddAsync(ticket);
+            await _dbContext.SaveChangesAsync();
         }
     }
 }

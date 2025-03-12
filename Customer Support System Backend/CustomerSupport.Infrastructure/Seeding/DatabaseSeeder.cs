@@ -66,6 +66,7 @@ namespace CustomerSupport.Infrastructure.Seeding
         {
             await SeedRolesAsync(serviceProvider);
             await SeedAdminUserAsync(serviceProvider);
+            await CategorySeeder.SeedCategoriesAsync(serviceProvider); // Add Category Seeding
         }
 
     }

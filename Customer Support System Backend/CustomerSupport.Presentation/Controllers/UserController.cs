@@ -70,17 +70,13 @@ namespace CustomerSupport.Presentation.Controllers
             }
         }
 
+        /// <summary>
+        /// From here the functions reviewed and added recently until refactor all the project
+        /// </summary>
+        
         [HttpGet("my-tickets")]
         public async Task<IActionResult> GetUserTickets()
         {
-            //var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-
-            //if (string.IsNullOrEmpty(userId))
-            //    return Unauthorized(new { Message = "Invalid user ID" });
-
-            //var tickets = await _ticketService.GetUserTicketsAsync(userId);
-            //return Ok(tickets);
-
             var userId = _httpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
             var userRole = _httpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.Role)?.Value;
 

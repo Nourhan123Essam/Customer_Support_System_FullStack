@@ -24,35 +24,7 @@ namespace CustomerSupport.Application.Services.Implementations
             _mapper = mapper;
         }
 
-        public async Task<int> CreateTicket(CreateTicketDTO ticketDTO, string userId)
-        {
-            var ticket = //_mapper.Map<Ticket>(ticketDTO);
-           new Ticket
-            {
-                Title = ticketDTO.Title,
-                Description = ticketDTO.Description,
-                Priority = ticketDTO.Priority,
-                Status = ticketDTO.Status,
-                CustomerUserId = userId,
-                CustomerSupportUserId = "b2c18365-e719-4e51-97e5-89d620e73959", //default customer support user
-                CategoryId = ticketDTO.CategoryId,
-                Attachments = new List<Attachment>()
-            };
-
-            // Handle file attachments
-            if (ticketDTO.Attachments != null && ticketDTO.Attachments.Any())
-            {
-                foreach (var file in ticketDTO.Attachments)
-                {
-                    var fileName = await _fileService.SaveFileAsync(file, "tickets");
-                    ticket.Attachments.Add(new Attachment { FilePath = fileName, FileName = file.FileName });
-                }
-            }
-
-            await _ticketRepository.AddAsync(ticket);
-            return ticket.Id;
-        }
-
+        
         public async Task<List<NoteDTO>> GetTicketNotesAsync(int ticketId, string userId)
         {
             // Get Ticket
@@ -143,18 +115,9 @@ namespace CustomerSupport.Application.Services.Implementations
             return true;
         }
 
-
-        //public async Task<IEnumerable<GetTicketDTO>> GetUserTicketsAsync(string userId)
-        //{
-        //    var tickets = await _ticketRepository.GetTicketsByUserIdAsync(userId);
-        //    return _mapper.Map<IEnumerable<GetTicketDTO>>(tickets);
-        //}
-
-        //public async Task<List<Ticket>> GetTicketsAsync(string userRole, string userId)
-        //{
-        //    var tickets = await _ticketRepository.GetFilteredTicketsAsync(userRole, userId);
-        //    return _mapper.Map<List<GetTicketDTO>>(tickets);
-        //}
+        /// <summary>
+        /// From here the functions reviewed and added recently until refactor all the project
+        /// </summary>
 
         public async Task<List<GetTicketDTO>> GetTicketsAsync(string userRole, string userId)
         {
@@ -162,9 +125,34 @@ namespace CustomerSupport.Application.Services.Implementations
             return _mapper.Map<List<GetTicketDTO>>(tickets);
         }
 
-        //Task<bool> ITicketService.AddRatingAsync(AddRatingDTO ratingDTO, string userId)
-        //{
-        //    throw new NotImplementedException();
-        //}
+        public async Task<int> CreateTicket(CreateTicketDTO ticketDTO, string userId)
+        {
+            var ticket = //_mapper.Map<Ticket>(ticketDTO);
+           new Ticket
+           {
+               Title = ticketDTO.Title,
+               Description = ticketDTO.Description,
+               Priority = ticketDTO.Priority,
+               Status = ticketDTO.Status,
+               CustomerUserId = userId,
+               CustomerSupportUserId = "b2c18365-e719-4e51-97e5-89d620e73959", //default customer support user
+               CategoryId = ticketDTO.CategoryId,
+               Attachments = new List<Attachment>()
+           };
+
+            // Handle file attachments
+            if (ticketDTO.Attachments != null && ticketDTO.Attachments.Any())
+            {
+                foreach (var file in ticketDTO.Attachments)
+                {
+                    var fileName = await _fileService.SaveFileAsync(file, "tickets");
+                    ticket.Attachments.Add(new Attachment { FilePath = fileName, FileName = file.FileName });
+                }
+            }
+
+            await _ticketRepository.AddAsync(ticket);
+            return ticket.Id;
+        }
+
     }
 }
