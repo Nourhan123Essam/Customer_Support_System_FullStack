@@ -361,13 +361,9 @@ C:\Users\CS\Desktop\My projects\Customer_Support_System_FullStack\Customer Suppo
 C:\Users\CS\Desktop\My projects\Customer_Support_System_FullStack\Customer Support System Backend\CustomerSupport.Presentation\obj\Debug\net8.0\CustomerSupport.Presentation.AssemblyInfoInputs.cache
 C:\Users\CS\Desktop\My projects\Customer_Support_System_FullStack\Customer Support System Backend\CustomerSupport.Presentation\obj\Debug\net8.0\CustomerSupport.Presentation.AssemblyInfo.cs
 C:\Users\CS\Desktop\My projects\Customer_Support_System_FullStack\Customer Support System Backend\CustomerSupport.Presentation\obj\Debug\net8.0\CustomerSupport.Presentation.csproj.CoreCompileInputs.cache
-<<<<<<< HEAD
 C:\Users\CS\Desktop\My projects\Customer_Support_System_FullStack\Customer Support System Backend\CustomerSupport.Presentation\obj\Debug\net8.0\CustomerSupport.Presentation.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\CS\Desktop\My projects\Customer_Support_System_FullStack\Customer Support System Backend\CustomerSupport.Presentation\obj\Debug\net8.0\CustomerSupport.Presentation.sourcelink.json
-=======
 C:\Users\CS\Desktop\My projects\Customer_Support_System_FullStack\Customer Support System Backend\CustomerSupport.Presentation\obj\Debug\net8.0\CustomerSupport.Presentation.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\CS\Desktop\My projects\Customer_Support_System_FullStack\Customer Support System Backend\CustomerSupport.Presentation\obj\Debug\net8.0\CustomerSupport.Presentation.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\CS\Desktop\My projects\Customer_Support_System_FullStack\Customer Support System Backend\CustomerSupport.Presentation\obj\Debug\net8.0\CustomerSupport.Presentation.sourcelink.json
 C:\Users\CS\Desktop\My projects\Customer_Support_System_FullStack\Customer Support System Backend\CustomerSupport.Presentation\obj\Debug\net8.0\scopedcss\bundle\CustomerSupport.Presentation.styles.css
 C:\Users\CS\Desktop\My projects\Customer_Support_System_FullStack\Customer Support System Backend\CustomerSupport.Presentation\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\CS\Desktop\My projects\Customer_Support_System_FullStack\Customer Support System Backend\CustomerSupport.Presentation\obj\Debug\net8.0\staticwebassets.development.json
@@ -385,4 +381,3 @@ C:\Users\CS\Desktop\My projects\Customer_Support_System_FullStack\Customer Suppo
 C:\Users\CS\Desktop\My projects\Customer_Support_System_FullStack\Customer Support System Backend\CustomerSupport.Presentation\obj\Debug\net8.0\CustomerSupport.Presentation.pdb
 C:\Users\CS\Desktop\My projects\Customer_Support_System_FullStack\Customer Support System Backend\CustomerSupport.Presentation\obj\Debug\net8.0\CustomerSupport.Presentation.genruntimeconfig.cache
 C:\Users\CS\Desktop\My projects\Customer_Support_System_FullStack\Customer Support System Backend\CustomerSupport.Presentation\obj\Debug\net8.0\ref\CustomerSupport.Presentation.dll
->>>>>>> bug-fix-branch

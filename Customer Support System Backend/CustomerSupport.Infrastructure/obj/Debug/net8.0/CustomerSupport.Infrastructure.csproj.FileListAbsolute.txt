@@ -35,12 +35,9 @@ C:\Users\CS\Desktop\My projects\Customer_Support_System_FullStack\Customer Suppo
 C:\Users\CS\Desktop\My projects\Customer_Support_System_FullStack\Customer Support System Backend\CustomerSupport.Infrastructure\obj\Debug\net8.0\CustomerSupport.Infrastructure.AssemblyInfo.cs
 C:\Users\CS\Desktop\My projects\Customer_Support_System_FullStack\Customer Support System Backend\CustomerSupport.Infrastructure\obj\Debug\net8.0\CustomerSupport.Infrastructure.csproj.CoreCompileInputs.cache
 C:\Users\CS\Desktop\My projects\Customer_Support_System_FullStack\Customer Support System Backend\CustomerSupport.Infrastructure\obj\Debug\net8.0\CustomerSupport.Infrastructure.sourcelink.json
-<<<<<<< HEAD
-=======
 C:\Users\CS\Desktop\My projects\Customer_Support_System_FullStack\Customer Support System Backend\CustomerSupport.Infrastructure\obj\Debug\net8.0\Customer.70AA623D.Up2Date
 C:\Users\CS\Desktop\My projects\Customer_Support_System_FullStack\Customer Support System Backend\CustomerSupport.Infrastructure\obj\Debug\net8.0\CustomerSupport.Infrastructure.dll
 C:\Users\CS\Desktop\My projects\Customer_Support_System_FullStack\Customer Support System Backend\CustomerSupport.Infrastructure\obj\Debug\net8.0\refint\CustomerSupport.Infrastructure.dll
 C:\Users\CS\Desktop\My projects\Customer_Support_System_FullStack\Customer Support System Backend\CustomerSupport.Infrastructure\obj\Debug\net8.0\CustomerSupport.Infrastructure.pdb
 C:\Users\CS\Desktop\My projects\Customer_Support_System_FullStack\Customer Support System Backend\CustomerSupport.Infrastructure\obj\Debug\net8.0\CustomerSupport.Infrastructure.genruntimeconfig.cache
 C:\Users\CS\Desktop\My projects\Customer_Support_System_FullStack\Customer Support System Backend\CustomerSupport.Infrastructure\obj\Debug\net8.0\ref\CustomerSupport.Infrastructure.dll
->>>>>>> bug-fix-branch
