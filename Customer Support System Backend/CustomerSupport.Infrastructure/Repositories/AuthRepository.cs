@@ -87,39 +87,42 @@ namespace CustomerSupport.Infrastructure.Repositories
             }
               
             //generate token and return it as the user vervified
-            string token = GenerateToken(getUser);
+            string token = await GenerateToken(getUser);
             return new Response(true, token);
         }
 
-        private string GenerateToken(IdentityUser user)
+        private async Task<string> GenerateToken(IdentityUser user)
         {
             var claims = new List<Claim>
             {
-                //new Claim(JwtRegisteredClaimNames.Sub, user.Id), // User's unique ID
-                //new Claim(JwtRegisteredClaimNames.Name, user.UserName), // User's username
-                //new Claim(JwtRegisteredClaimNames.Email, user.Email), // User's email
-                //new Claim(ClaimTypes.Role, "User") // Optional: User's role
-
                 new Claim(ClaimTypes.NameIdentifier, user.Id),
                 new Claim(ClaimTypes.Name, user.UserName),
-                new Claim(ClaimTypes.Email, user.Email),
-                new Claim("UserType", "User")
+                new Claim(ClaimTypes.Email, user.Email)
             };
 
+            // Fetch the user's role from the database
+            var userRole = (await _userManager.GetRolesAsync(user)).FirstOrDefault();
+
+            if (!string.IsNullOrEmpty(userRole))
+            {
+                claims.Add(new Claim(ClaimTypes.Role, userRole));
+            }
+
             var key = Encoding.UTF8.GetBytes(_configuration.GetSection("Jwt:Key").Value);
-            var sercurityKy = new SymmetricSecurityKey(key);
-            var credentials = new SigningCredentials(sercurityKy, SecurityAlgorithms.HmacSha256);
-           
+            var securityKey = new SymmetricSecurityKey(key);
+            var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
+
             var token = new JwtSecurityToken(
                 issuer: _configuration["Jwt:Issuer"],
                 audience: _configuration["Jwt:Audience"],
                 claims: claims,
-                expires: DateTime.Now.AddHours(24),
+                expires: DateTime.UtcNow.AddHours(24),
                 signingCredentials: credentials
             );
 
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
+
 
         public async Task<GetUserDTO> GetUser(string userId)
         {

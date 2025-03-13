@@ -94,6 +94,7 @@ namespace CustomerSupport.Infrastructure.DependencyInjections
             services.AddScoped<IAuthService, AuthRepository>();
             services.AddScoped<IFileService, FileService>();
             services.AddScoped<ITicketRepository, TicketRepository>();
+            services.AddScoped<ICategoryRepository, CategoryRepository>();
 
             return services;
         }
