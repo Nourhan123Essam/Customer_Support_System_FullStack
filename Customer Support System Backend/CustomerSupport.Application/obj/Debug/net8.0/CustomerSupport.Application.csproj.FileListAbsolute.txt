@@ -14,9 +14,25 @@ C:\Users\CS\Desktop\my projects\Customer Support System\Customer Support System 
 C:\Users\CS\Desktop\my projects\Customer Support System\Customer Support System Backend\CustomerSupport.Application\obj\Debug\net8.0\refint\CustomerSupport.Application.dll
 C:\Users\CS\Desktop\my projects\Customer Support System\Customer Support System Backend\CustomerSupport.Application\obj\Debug\net8.0\CustomerSupport.Application.pdb
 C:\Users\CS\Desktop\my projects\Customer Support System\Customer Support System Backend\CustomerSupport.Application\obj\Debug\net8.0\ref\CustomerSupport.Application.dll
+<<<<<<< HEAD
+=======
+C:\Users\CS\Desktop\My projects\Customer_Support_System_FullStack\Customer Support System Backend\CustomerSupport.Application\bin\Debug\net8.0\CustomerSupport.Application.deps.json
+C:\Users\CS\Desktop\My projects\Customer_Support_System_FullStack\Customer Support System Backend\CustomerSupport.Application\bin\Debug\net8.0\CustomerSupport.Application.dll
+C:\Users\CS\Desktop\My projects\Customer_Support_System_FullStack\Customer Support System Backend\CustomerSupport.Application\bin\Debug\net8.0\CustomerSupport.Application.pdb
+C:\Users\CS\Desktop\My projects\Customer_Support_System_FullStack\Customer Support System Backend\CustomerSupport.Application\bin\Debug\net8.0\CustomerSupport.Domain.dll
+C:\Users\CS\Desktop\My projects\Customer_Support_System_FullStack\Customer Support System Backend\CustomerSupport.Application\bin\Debug\net8.0\CustomerSupport.Domain.pdb
+>>>>>>> bug-fix-branch
 C:\Users\CS\Desktop\My projects\Customer_Support_System_FullStack\Customer Support System Backend\CustomerSupport.Application\obj\Debug\net8.0\CustomerSupport.Application.csproj.AssemblyReference.cache
 C:\Users\CS\Desktop\My projects\Customer_Support_System_FullStack\Customer Support System Backend\CustomerSupport.Application\obj\Debug\net8.0\CustomerSupport.Application.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\CS\Desktop\My projects\Customer_Support_System_FullStack\Customer Support System Backend\CustomerSupport.Application\obj\Debug\net8.0\CustomerSupport.Application.AssemblyInfoInputs.cache
 C:\Users\CS\Desktop\My projects\Customer_Support_System_FullStack\Customer Support System Backend\CustomerSupport.Application\obj\Debug\net8.0\CustomerSupport.Application.AssemblyInfo.cs
 C:\Users\CS\Desktop\My projects\Customer_Support_System_FullStack\Customer Support System Backend\CustomerSupport.Application\obj\Debug\net8.0\CustomerSupport.Application.csproj.CoreCompileInputs.cache
 C:\Users\CS\Desktop\My projects\Customer_Support_System_FullStack\Customer Support System Backend\CustomerSupport.Application\obj\Debug\net8.0\CustomerSupport.Application.sourcelink.json
+<<<<<<< HEAD
+=======
+C:\Users\CS\Desktop\My projects\Customer_Support_System_FullStack\Customer Support System Backend\CustomerSupport.Application\obj\Debug\net8.0\Customer.14797137.Up2Date
+C:\Users\CS\Desktop\My projects\Customer_Support_System_FullStack\Customer Support System Backend\CustomerSupport.Application\obj\Debug\net8.0\CustomerSupport.Application.dll
+C:\Users\CS\Desktop\My projects\Customer_Support_System_FullStack\Customer Support System Backend\CustomerSupport.Application\obj\Debug\net8.0\refint\CustomerSupport.Application.dll
+C:\Users\CS\Desktop\My projects\Customer_Support_System_FullStack\Customer Support System Backend\CustomerSupport.Application\obj\Debug\net8.0\CustomerSupport.Application.pdb
+C:\Users\CS\Desktop\My projects\Customer_Support_System_FullStack\Customer Support System Backend\CustomerSupport.Application\obj\Debug\net8.0\ref\CustomerSupport.Application.dll
+>>>>>>> bug-fix-branch

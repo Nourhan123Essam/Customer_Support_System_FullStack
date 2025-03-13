@@ -31,7 +31,11 @@ namespace CustomerSupport.Presentation.Controllers
             return category == null ? NotFound() : Ok(category);
         }
 
+<<<<<<< HEAD
         [Authorize(Roles = "Admin,CustomerAgent")]
+=======
+        [Authorize(Roles = "Admin,SupportAgent")]
+>>>>>>> bug-fix-branch
         [HttpPost]
         public async Task<IActionResult> Create(CreateCategoryDto dto)
         {
@@ -39,7 +43,11 @@ namespace CustomerSupport.Presentation.Controllers
             return created ? Ok("Category created successfully") : BadRequest("Category already exists");
         }
 
+<<<<<<< HEAD
         [Authorize(Roles = "Admin,CustomerAgent")]
+=======
+        [Authorize(Roles = "Admin,SupportAgent")]
+>>>>>>> bug-fix-branch
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(int id, CategoryDto dto)
         {
@@ -47,7 +55,11 @@ namespace CustomerSupport.Presentation.Controllers
             return updated ? Ok("Category updated successfully") : NotFound("Category not found");
         }
 
+<<<<<<< HEAD
         [Authorize(Roles = "Admin,CustomerAgent")]
+=======
+        [Authorize(Roles = "Admin,SupportAgent")]
+>>>>>>> bug-fix-branch
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {

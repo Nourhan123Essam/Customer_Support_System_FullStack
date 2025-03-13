@@ -11,10 +11,10 @@ namespace CustomerSupport.Domain.Entities
         public int Id { get; set; }
 
         // Foreign keys
-        public int TicketId { get; set; } // Foreign key for ticket
-        public string SupportUserId { get; set; } // Foreign key for support user
+        public int? TicketId { get; set; } // Foreign key for ticket
+        public string? SupportUserId { get; set; } // Foreign key for support user
 
         // Navigation Properties
-        public Ticket Ticket { get; set; }
+        public Ticket? Ticket { get; set; }
     }
 }

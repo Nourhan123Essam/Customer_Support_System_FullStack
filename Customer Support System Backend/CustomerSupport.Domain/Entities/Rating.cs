@@ -13,10 +13,10 @@ namespace CustomerSupport.Domain.Entities
         public string Feedback { get; set; }
 
         // Foreign keys
-        public int TicketId { get; set; } // Foreign key for ticket
-        public string UserId { get; set; } // Foreign key for the user who provided the rating
+        public int? TicketId { get; set; } // Foreign key for ticket
+        public string? UserId { get; set; } // Foreign key for the user who provided the rating
                                            
         // Navigation Property
-        public Ticket Ticket { get; set; }
+        public Ticket? Ticket { get; set; }
     }
 }

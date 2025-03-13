@@ -38,13 +38,18 @@ namespace CustomerSupport.Infrastructure.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("TicketId")
+                    b.Property<int?>("NoteId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("TicketId")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("UploadedAt")
                         .HasColumnType("datetime2");
 
                     b.HasKey("AttachmentId");
+
+                    b.HasIndex("NoteId");
 
                     b.HasIndex("TicketId");
 
@@ -86,11 +91,10 @@ namespace CustomerSupport.Infrastructure.Data.Migrations
                     b.Property<bool>("IsVisibleToCustomer")
                         .HasColumnType("bit");
 
-                    b.Property<int>("TicketId")
+                    b.Property<int?>("TicketId")
                         .HasColumnType("int");
 
                     b.Property<string>("UserId")
-                        .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
                     b.HasKey("NoteId");
@@ -117,17 +121,17 @@ namespace CustomerSupport.Infrastructure.Data.Migrations
                     b.Property<int>("Score")
                         .HasColumnType("int");
 
-                    b.Property<int>("TicketId")
+                    b.Property<int?>("TicketId")
                         .HasColumnType("int");
 
                     b.Property<string>("UserId")
-                        .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
                     b.HasKey("RatingId");
 
                     b.HasIndex("TicketId")
-                        .IsUnique();
+                        .IsUnique()
+                        .HasFilter("[TicketId] IS NOT NULL");
 
                     b.HasIndex("UserId");
 
@@ -142,15 +146,13 @@ namespace CustomerSupport.Infrastructure.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("CategoryId")
+                    b.Property<int?>("CategoryId")
                         .HasColumnType("int");
 
                     b.Property<string>("CustomerSupportUserId")
-                        .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("CustomerUserId")
-                        .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Description")
@@ -187,10 +189,9 @@ namespace CustomerSupport.Infrastructure.Data.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("SupportUserId")
-                        .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<int>("TicketId")
+                    b.Property<int?>("TicketId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -402,11 +403,17 @@ namespace CustomerSupport.Infrastructure.Data.Migrations
 
             modelBuilder.Entity("CustomerSupport.Domain.Entities.Attachment", b =>
                 {
+                    b.HasOne("CustomerSupport.Domain.Entities.Note", "Note")
+                        .WithMany("Attachments")
+                        .HasForeignKey("NoteId")
+                        .OnDelete(DeleteBehavior.Cascade);
+
                     b.HasOne("CustomerSupport.Domain.Entities.Ticket", "Ticket")
                         .WithMany("Attachments")
                         .HasForeignKey("TicketId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.Cascade);
+
+                    b.Navigation("Note");
 
                     b.Navigation("Ticket");
                 });
@@ -416,14 +423,12 @@ namespace CustomerSupport.Infrastructure.Data.Migrations
                     b.HasOne("CustomerSupport.Domain.Entities.Ticket", "Ticket")
                         .WithMany("Notes")
                         .HasForeignKey("TicketId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.SetNull);
 
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.SetNull);
 
                     b.Navigation("Ticket");
                 });
@@ -433,14 +438,12 @@ namespace CustomerSupport.Infrastructure.Data.Migrations
                     b.HasOne("CustomerSupport.Domain.Entities.Ticket", "Ticket")
                         .WithOne("Rating")
                         .HasForeignKey("CustomerSupport.Domain.Entities.Rating", "TicketId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.SetNull);
 
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.SetNull);
 
                     b.Navigation("Ticket");
                 });
@@ -450,20 +453,17 @@ namespace CustomerSupport.Infrastructure.Data.Migrations
                     b.HasOne("CustomerSupport.Domain.Entities.Category", "Category")
                         .WithMany("Tickets")
                         .HasForeignKey("CategoryId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.SetNull);
 
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", null)
                         .WithMany()
                         .HasForeignKey("CustomerSupportUserId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.SetNull);
 
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", null)
                         .WithMany()
                         .HasForeignKey("CustomerUserId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.SetNull);
 
                     b.Navigation("Category");
                 });
@@ -473,14 +473,12 @@ namespace CustomerSupport.Infrastructure.Data.Migrations
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", null)
                         .WithMany()
                         .HasForeignKey("SupportUserId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.Cascade);
 
                     b.HasOne("CustomerSupport.Domain.Entities.Ticket", "Ticket")
                         .WithMany("UserAssignedTickets")
                         .HasForeignKey("TicketId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.Cascade);
 
                     b.Navigation("Ticket");
                 });
@@ -541,14 +539,18 @@ namespace CustomerSupport.Infrastructure.Data.Migrations
                     b.Navigation("Tickets");
                 });
 
+            modelBuilder.Entity("CustomerSupport.Domain.Entities.Note", b =>
+                {
+                    b.Navigation("Attachments");
+                });
+
             modelBuilder.Entity("CustomerSupport.Domain.Entities.Ticket", b =>
                 {
                     b.Navigation("Attachments");
 
                     b.Navigation("Notes");
 
-                    b.Navigation("Rating")
-                        .IsRequired();
+                    b.Navigation("Rating");
 
                     b.Navigation("UserAssignedTickets");
                 });

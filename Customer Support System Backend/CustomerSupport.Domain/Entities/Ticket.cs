@@ -16,17 +16,17 @@ namespace CustomerSupport.Domain.Entities
         public TicketPriority Priority { get; set; }
 
         // Foreign keys
-        public string CustomerUserId { get; set; } // Foreign key for customer user
-        public string CustomerSupportUserId { get; set; } // Foreign key for assigned support user
+        public string? CustomerUserId { get; set; } // Foreign key for customer user
+        public string? CustomerSupportUserId { get; set; } // Foreign key for assigned support user
         //public int? RatingId { get; set; } // Foreign key for rating
-        public int CategoryId { get; set; } // Foreign key for category
+        public int? CategoryId { get; set; } // Foreign key for category
 
         // Navigation Properties
-        public Rating Rating { get; set; }
-        public Category Category { get; set; }
-        public ICollection<UserAssignedTicket> UserAssignedTickets { get; set; }
-        public ICollection<Note> Notes { get; set; }
-        public ICollection<Attachment> Attachments { get; set; }
+        public Rating? Rating { get; set; }
+        public Category? Category { get; set; }
+        public ICollection<UserAssignedTicket>? UserAssignedTickets { get; set; }
+        public ICollection<Note>? Notes { get; set; }
+        public ICollection<Attachment>? Attachments { get; set; }
 
     }
 }

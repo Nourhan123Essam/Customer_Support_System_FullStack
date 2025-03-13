@@ -14,9 +14,11 @@ namespace CustomerSupport.Domain.Entities
         public DateTime UploadedAt { get; set; } = DateTime.Now;
 
         // Foreign keys
-        public int TicketId { get; set; }
+        public int? TicketId { get; set; }
+        public int? NoteId { get; set; }
 
         // Navigation Property
-        public Ticket Ticket { get; set; }
+        public Ticket? Ticket { get; set; }
+        public Note? Note { get; set; }
     }
 }

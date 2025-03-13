@@ -10,7 +10,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CustomerSupport.Infrastructure.Repositories
 {
+<<<<<<< HEAD
     public class CategoryRepository 
+=======
+    public class CategoryRepository: ICategoryRepository
+>>>>>>> bug-fix-branch
     {
         private readonly AppDbContext _context;
         public CategoryRepository(AppDbContext context) { _context = context; }
@@ -23,5 +27,8 @@ namespace CustomerSupport.Infrastructure.Repositories
         public Task DeleteAsync(Category category) { _context.Categories.Remove(category); return Task.CompletedTask; }
         public async Task<int> SaveChangesAsync() => await _context.SaveChangesAsync();
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> bug-fix-branch
 }

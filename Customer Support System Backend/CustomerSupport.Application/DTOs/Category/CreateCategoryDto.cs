@@ -10,5 +10,8 @@ namespace CustomerSupport.Application.DTOs.Category
     {
         public string Name { get; set; } = string.Empty;
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> bug-fix-branch
 }

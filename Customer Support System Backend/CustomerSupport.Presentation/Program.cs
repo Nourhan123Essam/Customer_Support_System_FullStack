@@ -28,6 +28,7 @@ builder.Services.AddHttpContextAccessor();
 
 // Register Services
 builder.Services.AddScoped<ITicketService, TicketService>();
+builder.Services.AddScoped<ICategoryService, CategoryService>();
 
 
 // Register Auto mapper

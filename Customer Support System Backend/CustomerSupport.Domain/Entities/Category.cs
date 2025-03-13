@@ -12,6 +12,6 @@ namespace CustomerSupport.Domain.Entities
         public string Name { get; set; } // e.g., "Bug", "Feature Request"
 
         // Navigation Property
-        public ICollection<Ticket> Tickets { get; set; }
+        public ICollection<Ticket>? Tickets { get; set; }
     }
 }

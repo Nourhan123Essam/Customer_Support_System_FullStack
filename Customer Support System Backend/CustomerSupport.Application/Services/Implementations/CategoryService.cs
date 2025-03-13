@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 ﻿
+=======
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+>>>>>>> bug-fix-branch
 using CustomerSupport.Application.DTOs.Category;
 using CustomerSupport.Application.Services.Interfaces;
 using CustomerSupport.Domain.Entities;
@@ -6,7 +14,11 @@ using CustomerSupport.Domain.Interfaces;
 
 namespace CustomerSupport.Application.Services.Implementations
 {
+<<<<<<< HEAD
     public class CategoryService
+=======
+    public class CategoryService: ICategoryService
+>>>>>>> bug-fix-branch
     {
         private readonly ICategoryRepository _categoryRepository;
         public CategoryService(ICategoryRepository categoryRepository) { _categoryRepository = categoryRepository; }
@@ -47,5 +59,8 @@ namespace CustomerSupport.Application.Services.Implementations
             return await _categoryRepository.SaveChangesAsync() > 0;
         }
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> bug-fix-branch
 }
