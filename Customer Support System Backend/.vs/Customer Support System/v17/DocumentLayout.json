@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\CS\\Desktop\\My projects\\Customer_Support_System_FullStack\\Customer Support System Backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|c:\\users\\cs\\desktop\\my projects\\customer_support_system_fullstack\\customer support system backend\\customersupport.domain\\entities\\attachment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|solutionrelative:customersupport.domain\\entities\\attachment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|c:\\users\\cs\\desktop\\my projects\\customer_support_system_fullstack\\customer support system backend\\customersupport.infrastructure\\data\\migrations\\20250313214423_updatedeletebehaviorsforentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|solutionrelative:customersupport.infrastructure\\data\\migrations\\20250313214423_updatedeletebehaviorsforentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|c:\\users\\cs\\desktop\\my projects\\customer_support_system_fullstack\\customer support system backend\\customersupport.infrastructure\\data\\modelbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03D61E19-257C-4447-B387-0E8BEBBBEBA8}|CustomerSupport.Infrastructure\\CustomerSupport.Infrastructure.csproj|solutionrelative:customersupport.infrastructure\\data\\modelbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|c:\\users\\cs\\desktop\\my projects\\customer_support_system_fullstack\\customer support system backend\\customersupport.domain\\entities\\attachment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|solutionrelative:customersupport.domain\\entities\\attachment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B3216395-7AEA-4847-B99C-D9CC1C2F643E}|CustomerSupport.Domain\\CustomerSupport.Domain.csproj|c:\\users\\cs\\desktop\\my projects\\customer_support_system_fullstack\\customer support system backend\\customersupport.domain\\entities\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -162,21 +162,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20250313214423_UpdateDeleteBehaviorsForEntities.cs",
-              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\My projects\\Customer_Support_System_FullStack\\Customer Support System Backend\\CustomerSupport.Infrastructure\\Data\\Migrations\\20250313214423_UpdateDeleteBehaviorsForEntities.cs",
-              "RelativeDocumentMoniker": "CustomerSupport.Infrastructure\\Data\\Migrations\\20250313214423_UpdateDeleteBehaviorsForEntities.cs",
-              "ToolTip": "C:\\Users\\CS\\Desktop\\My projects\\Customer_Support_System_FullStack\\Customer Support System Backend\\CustomerSupport.Infrastructure\\Data\\Migrations\\20250313214423_UpdateDeleteBehaviorsForEntities.cs",
-              "RelativeToolTip": "CustomerSupport.Infrastructure\\Data\\Migrations\\20250313214423_UpdateDeleteBehaviorsForEntities.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T21:44:24.037Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 5,
@@ -215,7 +202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ModelBuilderExtensions.cs",
               "DocumentMoniker": "C:\\Users\\CS\\Desktop\\My projects\\Customer_Support_System_FullStack\\Customer Support System Backend\\CustomerSupport.Infrastructure\\Data\\ModelBuilderExtensions.cs",
               "RelativeDocumentMoniker": "CustomerSupport.Infrastructure\\Data\\ModelBuilderExtensions.cs",
@@ -251,15 +238,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Attachment.cs",
               "DocumentMoniker": "C:\\Users\\CS\\Desktop\\My projects\\Customer_Support_System_FullStack\\Customer Support System Backend\\CustomerSupport.Domain\\Entities\\Attachment.cs",
               "RelativeDocumentMoniker": "CustomerSupport.Domain\\Entities\\Attachment.cs",
               "ToolTip": "C:\\Users\\CS\\Desktop\\My projects\\Customer_Support_System_FullStack\\Customer Support System Backend\\CustomerSupport.Domain\\Entities\\Attachment.cs",
               "RelativeToolTip": "CustomerSupport.Domain\\Entities\\Attachment.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBYAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAmwBYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T17:11:42.494Z"
+              "WhenOpened": "2025-01-29T17:11:42.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20250313214423_UpdateDeleteBehaviorsForEntities.cs",
+              "DocumentMoniker": "C:\\Users\\CS\\Desktop\\My projects\\Customer_Support_System_FullStack\\Customer Support System Backend\\CustomerSupport.Infrastructure\\Data\\Migrations\\20250313214423_UpdateDeleteBehaviorsForEntities.cs",
+              "RelativeDocumentMoniker": "CustomerSupport.Infrastructure\\Data\\Migrations\\20250313214423_UpdateDeleteBehaviorsForEntities.cs",
+              "ToolTip": "C:\\Users\\CS\\Desktop\\My projects\\Customer_Support_System_FullStack\\Customer Support System Backend\\CustomerSupport.Infrastructure\\Data\\Migrations\\20250313214423_UpdateDeleteBehaviorsForEntities.cs",
+              "RelativeToolTip": "CustomerSupport.Infrastructure\\Data\\Migrations\\20250313214423_UpdateDeleteBehaviorsForEntities.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T21:44:24.037Z"
             },
             {
               "$type": "Document",
