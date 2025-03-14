@@ -10,11 +10,11 @@ using System.Threading.Tasks;
 
 namespace CustomerSupport.Infrastructure.Data
 {
-    public class AppDbContext : IdentityDbContext<IdentityUser>
+    public class AppDbContext : IdentityDbContext<ApplicationUser>
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
-        public DbSet<IdentityUser> Users {  get; set; }
+        public DbSet<ApplicationUser> Users { get; set; }
         public DbSet<Ticket> Tickets { get; set; }
         public DbSet<Attachment> Attachments { get; set; }
         public DbSet<Note> Notes { get; set; }

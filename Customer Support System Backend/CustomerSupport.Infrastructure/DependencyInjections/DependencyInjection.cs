@@ -29,7 +29,7 @@ namespace CustomerSupport.Infrastructure.DependencyInjections
                 options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
 
             //configure identity
-            services.AddIdentity<IdentityUser, IdentityRole>(options =>
+            services.AddIdentity<ApplicationUser, IdentityRole>(options =>
             {
                 options.Password.RequireDigit = true;
                 options.Password.RequiredLength = 6;

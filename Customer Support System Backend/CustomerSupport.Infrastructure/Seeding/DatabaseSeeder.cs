@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CustomerSupport.Infrastructure.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -35,7 +36,7 @@ namespace CustomerSupport.Infrastructure.Seeding
         /// </summary>
         public static async Task SeedAdminUserAsync(IServiceProvider serviceProvider)
         {
-            var userManager = serviceProvider.GetRequiredService<UserManager<IdentityUser>>();
+            var userManager = serviceProvider.GetRequiredService<UserManager<ApplicationUser>>();
             var configuration = serviceProvider.GetRequiredService<IConfiguration>(); // Retrieve config
 
             // Fetch admin credentials from configuration
@@ -44,7 +45,7 @@ namespace CustomerSupport.Infrastructure.Seeding
 
             if (!await userManager.Users.AnyAsync(u => u.Email == adminEmail))
             {
-                var adminUser = new IdentityUser
+                var adminUser = new ApplicationUser
                 {
                     UserName = adminEmail,
                     Email = adminEmail,

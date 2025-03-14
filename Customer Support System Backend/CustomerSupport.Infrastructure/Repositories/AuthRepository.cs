@@ -14,12 +14,12 @@ namespace CustomerSupport.Infrastructure.Repositories
 {
     public class AuthRepository: IAuthService
     {
-        private readonly UserManager<IdentityUser> _userManager;
-        private readonly SignInManager<IdentityUser> _signInManager;
+        private readonly UserManager<ApplicationUser> _userManager;
+        private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly IConfiguration _configuration;
 
-        public AuthRepository(UserManager<IdentityUser> userManager, 
-            SignInManager<IdentityUser> signInManager,
+        public AuthRepository(UserManager<ApplicationUser> userManager, 
+            SignInManager<ApplicationUser> signInManager,
             IConfiguration configuration)
         {
             _userManager = userManager;
@@ -27,7 +27,7 @@ namespace CustomerSupport.Infrastructure.Repositories
             _configuration = configuration;
         }
 
-        private async Task<IdentityUser> GetUserByEmailAsync(string email)
+        private async Task<ApplicationUser> GetUserByEmailAsync(string email)
         {
             return await _userManager.FindByEmailAsync(email);
         }
@@ -49,7 +49,7 @@ namespace CustomerSupport.Infrastructure.Repositories
                 return new Response(false, $"This email is already registered");
 
             // Create a new user
-            var newUser = new IdentityUser()
+            var newUser = new ApplicationUser()
             {
                 Email = appUserDTO.Email,
                 UserName = appUserDTO.Name,
@@ -91,7 +91,7 @@ namespace CustomerSupport.Infrastructure.Repositories
             return new Response(true, token);
         }
 
-        private async Task<string> GenerateToken(IdentityUser user)
+        private async Task<string> GenerateToken(ApplicationUser user)
         {
             var claims = new List<Claim>
             {

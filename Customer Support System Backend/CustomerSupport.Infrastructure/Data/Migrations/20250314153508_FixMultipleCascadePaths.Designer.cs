@@ -4,6 +4,7 @@ using CustomerSupport.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CustomerSupport.Infrastructure.Data.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250314153508_FixMultipleCascadePaths")]
+    partial class FixMultipleCascadePaths
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -426,12 +429,12 @@ namespace CustomerSupport.Infrastructure.Data.Migrations
                     b.HasOne("CustomerSupport.Domain.Entities.Ticket", "Ticket")
                         .WithMany("Notes")
                         .HasForeignKey("TicketId")
-                        .OnDelete(DeleteBehavior.NoAction);
+                        .OnDelete(DeleteBehavior.Cascade);
 
                     b.HasOne("CustomerSupport.Infrastructure.Data.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.NoAction);
+                        .OnDelete(DeleteBehavior.SetNull);
 
                     b.Navigation("Ticket");
                 });
@@ -441,12 +444,12 @@ namespace CustomerSupport.Infrastructure.Data.Migrations
                     b.HasOne("CustomerSupport.Domain.Entities.Ticket", "Ticket")
                         .WithOne("Rating")
                         .HasForeignKey("CustomerSupport.Domain.Entities.Rating", "TicketId")
-                        .OnDelete(DeleteBehavior.NoAction);
+                        .OnDelete(DeleteBehavior.SetNull);
 
                     b.HasOne("CustomerSupport.Infrastructure.Data.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.NoAction);
+                        .OnDelete(DeleteBehavior.SetNull);
 
                     b.Navigation("Ticket");
                 });
@@ -456,7 +459,7 @@ namespace CustomerSupport.Infrastructure.Data.Migrations
                     b.HasOne("CustomerSupport.Domain.Entities.Category", "Category")
                         .WithMany("Tickets")
                         .HasForeignKey("CategoryId")
-                        .OnDelete(DeleteBehavior.NoAction);
+                        .OnDelete(DeleteBehavior.SetNull);
 
                     b.HasOne("CustomerSupport.Infrastructure.Data.ApplicationUser", null)
                         .WithMany()
@@ -466,7 +469,7 @@ namespace CustomerSupport.Infrastructure.Data.Migrations
                     b.HasOne("CustomerSupport.Infrastructure.Data.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("CustomerUserId")
-                        .OnDelete(DeleteBehavior.Restrict);
+                        .OnDelete(DeleteBehavior.NoAction);
 
                     b.Navigation("Category");
                 });
@@ -476,12 +479,12 @@ namespace CustomerSupport.Infrastructure.Data.Migrations
                     b.HasOne("CustomerSupport.Infrastructure.Data.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("SupportUserId")
-                        .OnDelete(DeleteBehavior.NoAction);
+                        .OnDelete(DeleteBehavior.Cascade);
 
                     b.HasOne("CustomerSupport.Domain.Entities.Ticket", "Ticket")
                         .WithMany("UserAssignedTickets")
                         .HasForeignKey("TicketId")
-                        .OnDelete(DeleteBehavior.NoAction);
+                        .OnDelete(DeleteBehavior.Cascade);
 
                     b.Navigation("Ticket");
                 });
