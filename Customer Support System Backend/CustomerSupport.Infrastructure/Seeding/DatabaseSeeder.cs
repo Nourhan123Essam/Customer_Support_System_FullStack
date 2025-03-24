@@ -36,7 +36,7 @@ namespace CustomerSupport.Infrastructure.Seeding
         /// </summary>
         public static async Task SeedAdminUserAsync(IServiceProvider serviceProvider)
         {
-            var userManager = serviceProvider.GetRequiredService<UserManager<ApplicationUser>>();
+            var userManager = serviceProvider.GetRequiredService<UserManager<IdentityUser>>();
             var configuration = serviceProvider.GetRequiredService<IConfiguration>(); // Retrieve config
 
             // Fetch admin credentials from configuration
@@ -45,7 +45,7 @@ namespace CustomerSupport.Infrastructure.Seeding
 
             if (!await userManager.Users.AnyAsync(u => u.Email == adminEmail))
             {
-                var adminUser = new ApplicationUser
+                var adminUser = new IdentityUser
                 {
                     UserName = adminEmail,
                     Email = adminEmail,

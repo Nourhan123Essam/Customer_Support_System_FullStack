@@ -13,110 +13,79 @@ namespace CustomerSupport.Infrastructure.Data
     {
         public static void ApplyEntityRelationships(this ModelBuilder modelBuilder)
         {
-            /////////////// User Relationships ////////////////////
+            /////////// User Relationships/////////////////////////////////////////////
 
             // Relationship between Ticket and User (Customer)
             modelBuilder.Entity<Ticket>()
-                .HasOne<ApplicationUser>()
-                .WithMany()
-                .HasForeignKey(t => t.CustomerUserId)
+                .HasOne<IdentityUser>() // Specify the related entity type directly
+                .WithMany()        // No navigation property on User for this
+                .HasForeignKey(t => t.CustomerUserId) // Foreign key in Ticket
                 .OnDelete(DeleteBehavior.Restrict);
-            /* 
-               Reason: If a customer is deleted, we keep the ticket for reference.
-            */
-
-            // Relationship between Ticket and Customer Support User (Agent handling the ticket)
-            modelBuilder.Entity<Ticket>()
-                .HasOne<ApplicationUser>()
-                .WithMany()
-                .HasForeignKey(t => t.CustomerSupportUserId)
-                .OnDelete(DeleteBehavior.NoAction);
-            /* 
-               Reason: Prevents multiple cascade paths when both CustomerUserId and CustomerSupportUserId reference ApplicationUser.
-               Instead, handle cleanup manually when deleting an employee.
-            */
 
             // Relationship between Note and User (User who created the Note)
             modelBuilder.Entity<Note>()
-                .HasOne<ApplicationUser>()
+                .HasOne<IdentityUser>()
                 .WithMany()
                 .HasForeignKey(n => n.UserId)
-                .OnDelete(DeleteBehavior.NoAction);
-            /* 
-               Reason: Notes act like chat messages; we keep them even if the user is deleted.
-            */
+                .OnDelete(DeleteBehavior.Cascade);
 
-            // Relationship between Rating and User (Who provided the rating)
-            modelBuilder.Entity<Rating>()
-                .HasOne<ApplicationUser>()
-                .WithMany()
-                .HasForeignKey(r => r.UserId)
-                .OnDelete(DeleteBehavior.NoAction);
-            /* 
-               Reason: Keeping ratings for analytics even if the user is removed.
-            */
-
-            // Relationship between UserAssignedTickets (Logging table) and Support User
+            // Relationship between UserAssignedTickets and User
             modelBuilder.Entity<UserAssignedTicket>()
-                .HasOne<ApplicationUser>()
+                .HasOne<IdentityUser>()
                 .WithMany()
                 .HasForeignKey(uat => uat.SupportUserId)
-                .OnDelete(DeleteBehavior.NoAction);
-            /* 
-               Reason: This is a logging table, so if a user is deleted, their assignments should be deleted as well.
-            */
+                .OnDelete(DeleteBehavior.Restrict);
 
-            /////////////// Ticket Relationships ////////////////////
+            // Ticket and Customer Support User
+            modelBuilder.Entity<Ticket>()
+                .HasOne<IdentityUser>()
+                .WithMany()
+                .HasForeignKey(t => t.CustomerSupportUserId)
+                .OnDelete(DeleteBehavior.Restrict);
 
-            // Relationship between Ticket and Notes
+            // Rating and User
+            modelBuilder.Entity<Rating>()
+                .HasOne<IdentityUser>()
+                .WithMany()
+                .HasForeignKey(r => r.UserId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            /////////// Ticket Relationships/////////////////////////////////////////////
+
+            // Relationship between Ticket and Note
             modelBuilder.Entity<Note>()
                 .HasOne(n => n.Ticket)
                 .WithMany(t => t.Notes)
                 .HasForeignKey(n => n.TicketId)
-                .OnDelete(DeleteBehavior.NoAction);
-            /* 
-               Reason: Notes belong to a ticket. If a ticket is deleted, notes should be removed.
-            */
+                .OnDelete(DeleteBehavior.Cascade);
 
-            // Relationship between Ticket and Attachments
+            // Relationship between Ticket and Attachment
             modelBuilder.Entity<Attachment>()
                 .HasOne(a => a.Ticket)
                 .WithMany(t => t.Attachments)
                 .HasForeignKey(a => a.TicketId)
                 .OnDelete(DeleteBehavior.Cascade);
-            /* 
-               Reason: Attachments are specific to a ticket. If the ticket is deleted, attachments should be removed.
-            */
 
-            // Relationship between Ticket and Rating (1-to-1)
+            // Ticket and Rating (1-to-1)
             modelBuilder.Entity<Ticket>()
                 .HasOne(t => t.Rating)
                 .WithOne(r => r.Ticket)
-                .HasForeignKey<Rating>(r => r.TicketId)
-                .OnDelete(DeleteBehavior.NoAction);
-            /* 
-               Reason: Keeping rating records even if the ticket is deleted for historical analysis.
-            */
+                .HasForeignKey<Rating>(r => r.TicketId) // Explicitly define the foreign key
+                .OnDelete(DeleteBehavior.Cascade); // Optional: Define delete behavior
 
-            // Relationship between Ticket and Category (Many-to-1)
+            // Ticket and Category (Many-to-1)
             modelBuilder.Entity<Ticket>()
                 .HasOne(t => t.Category)
                 .WithMany(c => c.Tickets)
                 .HasForeignKey(t => t.CategoryId)
-                .OnDelete(DeleteBehavior.NoAction);
-            /* 
-               Reason: If a category is deleted, tickets should remain uncategorized.
-            */
+                .OnDelete(DeleteBehavior.Restrict);
 
-            // Relationship between Ticket and UserAssignedTickets (1-to-Many)
+            // Ticket and UserAssignedTickets (1-to-Many)
             modelBuilder.Entity<Ticket>()
                 .HasMany(t => t.UserAssignedTickets)
                 .WithOne(ua => ua.Ticket)
                 .HasForeignKey(ua => ua.TicketId)
-                .OnDelete(DeleteBehavior.NoAction);
-            /* 
-               Reason: Logging table; if a ticket is deleted, logs should be removed.
-            */
+                .OnDelete(DeleteBehavior.Cascade);
 
             /////////////// Note and Attachment Relationships ////////////////////
 

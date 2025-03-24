@@ -1,4 +1,4 @@
-﻿
+﻿ 
 using Microsoft.AspNetCore.Identity;
 using CustomerSupport.Infrastructure.Data;
 using System.Text;
@@ -14,12 +14,12 @@ namespace CustomerSupport.Infrastructure.Repositories
 {
     public class AuthRepository: IAuthService
     {
-        private readonly UserManager<ApplicationUser> _userManager;
-        private readonly SignInManager<ApplicationUser> _signInManager;
+        private readonly UserManager<IdentityUser> _userManager;
+        private readonly SignInManager<IdentityUser> _signInManager;
         private readonly IConfiguration _configuration;
 
-        public AuthRepository(UserManager<ApplicationUser> userManager, 
-            SignInManager<ApplicationUser> signInManager,
+        public AuthRepository(UserManager<IdentityUser> userManager, 
+            SignInManager<IdentityUser> signInManager,
             IConfiguration configuration)
         {
             _userManager = userManager;
@@ -27,7 +27,7 @@ namespace CustomerSupport.Infrastructure.Repositories
             _configuration = configuration;
         }
 
-        private async Task<ApplicationUser> GetUserByEmailAsync(string email)
+        private async Task<IdentityUser> GetUserByEmailAsync(string email)
         {
             return await _userManager.FindByEmailAsync(email);
         }
@@ -49,7 +49,7 @@ namespace CustomerSupport.Infrastructure.Repositories
                 return new Response(false, $"This email is already registered");
 
             // Create a new user
-            var newUser = new ApplicationUser()
+            var newUser = new IdentityUser()
             {
                 Email = appUserDTO.Email,
                 UserName = appUserDTO.Name,
@@ -91,7 +91,7 @@ namespace CustomerSupport.Infrastructure.Repositories
             return new Response(true, token);
         }
 
-        private async Task<string> GenerateToken(ApplicationUser user)
+        private async Task<string> GenerateToken(IdentityUser user)
         {
             var claims = new List<Claim>
             {
