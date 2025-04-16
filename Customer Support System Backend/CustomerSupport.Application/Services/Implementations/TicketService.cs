@@ -57,10 +57,11 @@ namespace CustomerSupport.Application.Services.Implementations
         public async Task AddNoteAsync(AddNoteDTO addNoteDTO, string userId)
         {
             // Get Ticket
-            var ticket = await _ticketRepository.GetByIdAsync(addNoteDTO.TicketId);    
-            
+            var ticket = await _ticketRepository.GetByIdAsync(addNoteDTO.TicketId);
+
             // Check if the user Authorized
-            if (ticket == null || ticket.CustomerUserId != userId)
+            //if (ticket == null || ticket.CustomerUserId != userId)
+            if (ticket == null)
                 throw new Exception("Ticket not found or you do not have access to it.");
 
             // Check if ticket exists and is not closed
@@ -135,7 +136,7 @@ namespace CustomerSupport.Application.Services.Implementations
                Priority = ticketDTO.Priority,
                Status = ticketDTO.Status,
                CustomerUserId = userId,
-               CustomerSupportUserId = "b2c18365-e719-4e51-97e5-89d620e73959", //default customer support user
+               CustomerSupportUserId = "a5e305f1-e1e6-49f2-8cb1-62118585ff09", //default customer support user
                CategoryId = ticketDTO.CategoryId,
                Attachments = new List<Attachment>()
            };
@@ -150,6 +151,8 @@ namespace CustomerSupport.Application.Services.Implementations
                 }
             }
 
+            // this should updated
+            ticket.CategoryId = 1;
             await _ticketRepository.AddAsync(ticket);
             return ticket.Id;
         }

@@ -27,7 +27,7 @@ namespace CustomerSupport.Infrastructure.Data
                 .HasOne<IdentityUser>()
                 .WithMany()
                 .HasForeignKey(n => n.UserId)
-                .OnDelete(DeleteBehavior.Cascade);
+                .OnDelete(DeleteBehavior.Restrict);
 
             // Relationship between UserAssignedTickets and User
             modelBuilder.Entity<UserAssignedTicket>()
@@ -48,7 +48,7 @@ namespace CustomerSupport.Infrastructure.Data
                 .HasOne<IdentityUser>()
                 .WithMany()
                 .HasForeignKey(r => r.UserId)
-                .OnDelete(DeleteBehavior.Cascade);
+                .OnDelete(DeleteBehavior.Restrict);
 
             /////////// Ticket Relationships/////////////////////////////////////////////
 
@@ -57,21 +57,21 @@ namespace CustomerSupport.Infrastructure.Data
                 .HasOne(n => n.Ticket)
                 .WithMany(t => t.Notes)
                 .HasForeignKey(n => n.TicketId)
-                .OnDelete(DeleteBehavior.Cascade);
+                .OnDelete(DeleteBehavior.Restrict);
 
             // Relationship between Ticket and Attachment
             modelBuilder.Entity<Attachment>()
                 .HasOne(a => a.Ticket)
                 .WithMany(t => t.Attachments)
                 .HasForeignKey(a => a.TicketId)
-                .OnDelete(DeleteBehavior.Cascade);
+                .OnDelete(DeleteBehavior.Restrict);
 
             // Ticket and Rating (1-to-1)
             modelBuilder.Entity<Ticket>()
                 .HasOne(t => t.Rating)
                 .WithOne(r => r.Ticket)
                 .HasForeignKey<Rating>(r => r.TicketId) // Explicitly define the foreign key
-                .OnDelete(DeleteBehavior.Cascade); // Optional: Define delete behavior
+                .OnDelete(DeleteBehavior.Restrict); // Optional: Define delete behavior
 
             // Ticket and Category (Many-to-1)
             modelBuilder.Entity<Ticket>()
@@ -85,7 +85,7 @@ namespace CustomerSupport.Infrastructure.Data
                 .HasMany(t => t.UserAssignedTickets)
                 .WithOne(ua => ua.Ticket)
                 .HasForeignKey(ua => ua.TicketId)
-                .OnDelete(DeleteBehavior.Cascade);
+                .OnDelete(DeleteBehavior.Restrict);
 
             /////////////// Note and Attachment Relationships ////////////////////
 
@@ -94,7 +94,7 @@ namespace CustomerSupport.Infrastructure.Data
                 .HasOne(a => a.Note)
                 .WithMany(n => n.Attachments)
                 .HasForeignKey(a => a.NoteId)
-                .OnDelete(DeleteBehavior.Cascade);
+                .OnDelete(DeleteBehavior.Restrict);
             /* 
                Reason: Attachments belong to a note. If the note is deleted, its attachments should be removed.
             */
